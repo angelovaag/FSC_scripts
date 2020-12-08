@@ -1,7 +1,13 @@
+This repo presents with scripts, code and materials used in the creation of publication titled:
 #### Inter- and intra-annual bacterioplankton community patterns in a deepwater sub-Arctic region: persistent high background abundance of putative oil degraders
 
-This repo presents with scripts, code and materials used in the creation of publication titled:
-"Inter- and intra-annual bacterioplankton community patterns in a deepwater sub-Arctic region: persistent high background abundance of putative oil degraders"
+Angelina G. Angelova1, Barbara Berx2, Eileen Bresnan2, Samantha B. Joye3, Andrew Free4, Tony Gutierrez1
+
+1School of Engineering and Physical Sciences, Heriot-Watt University, Edinburgh EH14 4AS, UK
+2Marine Scotland Science, Aberdeen, AB11 9DB, UK
+3Department of Marine Sciences, University of Georgia, Athens, Georgia, USA
+4School of Biological Sciences, University of Edinburgh, Edinburgh EH9 3FF, UK
+
 
 ##### FSC_scripts
 Scripts about the 16S analysis of FSC baseline microbial communities
