@@ -19,7 +19,7 @@ All files starting with **DB** are the SINTAX-formated database files used for a
 
 **pipeline.txt file** provides the general structure of the bioinformatics pipeline
 
-**zASV_OTUtab-nonchim.txt** = the OTU/ASV table produced by VSEARCH denoising after chimera removal \
+**zASV_OTUtab-nonchim.txt** = the ASV counts table produced by VSEARCH after chimera removal \
 **zASV_TAXtab-nonchim.txt** = the TAXONOMY asignments for each ASV (Its been cleaned with: cut -f1,3 -d "\t" | sed 's/;*\t/\t/g' ) \
 **zASV_SEQfa-nonchim.txt** = the fasta file of the nonchimeric ASV sequences \
 
