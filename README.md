@@ -1,7 +1,8 @@
 # FSC_scripts
 Scripts about the 16S analysis of FSC baseline microbial communities
 
-All files starting with DB are the SINTAX-formated database files used for assigning taxonomy
+All files starting with DB are the SINTAX-formated database files used for assigning taxonomy. 
+DB_ncbi16S.fasta was primarily used for the FSC baseline analysis. The rest are supplemental.
 
 pipeline.txt file provides the general structure of the bioinformatics pipeline
 
