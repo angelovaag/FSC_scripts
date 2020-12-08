@@ -1,4 +1,9 @@
-# FSC_scripts
+#### Inter- and intra-annual bacterioplankton community patterns in a deepwater sub-Arctic region: persistent high background abundance of putative oil degraders
+
+This repo presents with scripts, code and materials used in the creation of publication titled:
+"Inter- and intra-annual bacterioplankton community patterns in a deepwater sub-Arctic region: persistent high background abundance of putative oil degraders"
+
+##### FSC_scripts
 Scripts about the 16S analysis of FSC baseline microbial communities
 
 All files starting with DB are the SINTAX-formated database files used for assigning taxonomy. 
