@@ -13,7 +13,7 @@ Which was a 16S-based analysis (V3-V4 rRNA gene region) of microbial communities
 Information about files provided:
 
 All files starting with **DB** are the SINTAX-formated database files used for assigning taxonomy. 
-**DB_ncbi16S.fasta** was primarily used for the FSC baseline analysis. The rest are supplemental.
+**DB_ncbi16S.fasta** was primarily used for the FSC baseline taxonomic assignment. The rest are supplemental.
 
 **pipeline.txt file** provides the general structure of the bioinformatics pipeline
 
@@ -24,6 +24,6 @@ All files starting with **DB** are the SINTAX-formated database files used for a
 **zASV_Ranalysis_v314.7.Rmd** is the R script used to genarate the analysis + some explanations .. and ranting 
 
 **zASV_OTUtab-nonchim.txt** = the OTU/ASV table produced by VSEARCH denoising after chimera removal
-**zASV_TAXtab-nonchim.txt** = the TAXONOMY asignments for each ASV (Its been cleaned with: cut -f1,3 -d "\t" | sed 's/;*\t/\t/g' )
+**zASV_TAXtab-nonchim.txt** = the TAXONOMY asignments for each ASV (Its been cleaned with: cut -f1,3 -d "\t" | sed 's/;*\t/\t/g' ) \
 **zASV_SEQfa-nonchim.txt** = the fasta file of the nonchimeric ASV sequences
 
