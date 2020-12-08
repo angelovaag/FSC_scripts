@@ -1,0 +1,51 @@
+#!/bin/bash
+
+#assuming fastq reads are in folder /raw/
+
+# 1) Merge F & R reads in fastq file & get stats
+mkdir mergedq/
+for f in $(ls raw/*_R1.fastq | cut -f1-3 -d "_"); do
+i=$(basename ${f})
+pandaseq -f /raw/${i}_R1.fastq -r /raw/${i}_R2.fastq -F -w mergedq/${i}_merged.fastq
+echo ${i} >>  mergedq/${i}_merged.STATS.txt
+prinseq-lite.pl -fastq mergedq/${i}_merged.fastq -stats_all >>  mergedq/${i}_merged.STATS.txt
+done
+
+# 2) trim and filter
+mkdir trmflt/
+for f in $(ls mergedq/*_merged.fastq | cut -f1-3 -d "_"); do
+prinseq-lite.pl -out_format 1 -line_width 0 -min_len 400 -trim_qual_left 35 -trim_qual_right 35 \
+		-fastq ${f}_merged.fastq -out_good trmflt/${f}_trmflt
+done
+
+# 3) rename and concat
+for f in $(ls mergedq/*_trmflt.fasta | cut -f1-3 -d "_"); do
+vsearch --relabel ${f}_trmflt.fna -prefix ${f} .fnaout ${f}_renamed.fasta --size_out --relabel_keep
+done
+cat mergedq/*_renamed.fasta > combinded_seqs.fna
+
+
+#Usearch doesnt work on macOS Catalina => Vsearch is the solution
+#The first time opeing, VSEARCH will not open. It will send request to SustemPreferences/Vault to be approved for opening. Make sure to manually approve this request
+
+
+
+# 4)Dereplicate
+vsearch --derep_fulllength combined_seqs.fna --output dereplicated.fna --sizeout --minuniquesize 2
+
+
+# 5)Cluster/denoise
+vsearch --cluster_unoise dereplicated.fna --centroids zASV-chimeric.fa --id 0.97 --sizein --strand both --threads 8 --relabel zASV --sizeout
+
+# 6)Chimera check
+vsearch --uchime_denovo zASV.fa --nonchimeras zASV_SEQfa-nonchim.txt --chimeras zASV-chimeras.fa
+
+export DB=~/home/path/to/DB/DB_ncbi16S.fa
+# 7)taxonomy of the zASV-nonchim.fa.txt
+ vsearch --sintax zASV_SEQfa-nonchim.txt --db $DB --tabbedout zASV_TAXtab-nonchim.txt --sintax_cutoff 0.70
+
+
+# 8)Mapping --id 0.97
+vsearch --usearch_global combined_seqs.fna --db zASV_SEQfa-nonchim.txt --strand both --biomout zASV.biom --otutabout zASV_OTUtab-nonchim.txt --threads 4
+
+# 9) manually rename each sample to its corresponding sample name, based on mapping file

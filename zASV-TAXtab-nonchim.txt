@@ -1,0 +1,1514 @@
+zASV12	k:Bacteria,p:Proteobacteria
+zASV23	k:Bacteria,p:Proteobacteria
+zASV19	k:Bacteria,p:Proteobacteria
+zASV7	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Lentibacter,s:Lentibacter algarum
+zASV8	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Lentibacter,s:Lentibacter algarum
+zASV5	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Lentibacter,s:Lentibacter algarum
+zASV1	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Lentibacter,s:Lentibacter algarum
+zASV3	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Lentibacter,s:Lentibacter algarum
+zASV4	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Lentibacter,s:Lentibacter algarum
+zASV15	k:Bacteria,p:Proteobacteria
+zASV6	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Lentibacter,s:Lentibacter algarum
+zASV28	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV2	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV10	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Pseudoalteromonadaceae,g:Pseudoalteromonas
+zASV11	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Pseudoalteromonadaceae,g:Pseudoalteromonas
+zASV9	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Lentibacter,s:Lentibacter algarum
+zASV18	k:Bacteria,p:Proteobacteria
+zASV26	k:Bacteria,p:Proteobacteria
+zASV35	k:Bacteria,p:Proteobacteria
+zASV29	k:Bacteria,p:Proteobacteria
+zASV20	k:Bacteria,p:Proteobacteria
+zASV40	k:Bacteria,p:Proteobacteria
+zASV14	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Pseudoalteromonadaceae,g:Pseudoalteromonas
+zASV30	k:Bacteria
+zASV13	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Pseudoalteromonadaceae,g:Pseudoalteromonas
+zASV16	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Pseudoalteromonadaceae,g:Pseudoalteromonas
+zASV33	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV38	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV37	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Alteromonadaceae,g:Alteromonas,s:Alteromonas naphthalenivorans
+zASV36	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV39	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV44	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV52	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV62	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV41	k:Bacteria
+zASV58	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV42	k:Bacteria,p:Proteobacteria
+zASV46	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV48	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Alteromonadaceae,g:Alteromonas,s:Alteromonas naphthalenivorans
+zASV73	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV47	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV49	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Alteromonadaceae,g:Alteromonas,s:Alteromonas naphthalenivorans
+zASV51	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Alteromonadaceae,g:Alteromonas,s:Alteromonas naphthalenivorans
+zASV241	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV43	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV63	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV64	k:Bacteria,p:Actinobacteria
+zASV45	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV65	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV60	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV66	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV59	k:Bacteria
+zASV75	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV96	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV55	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Alteromonadaceae,g:Alteromonas,s:Alteromonas naphthalenivorans
+zASV89	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV72	k:Bacteria
+zASV57	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Alteromonadaceae,g:Alteromonas,s:Alteromonas naphthalenivorans
+zASV67	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Alteromonadaceae,g:Alteromonas,s:Alteromonas naphthalenivorans
+zASV50	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV113	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV77	k:Bacteria,p:Actinobacteria
+zASV94	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV68	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV53	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV116	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV54	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV61	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV71	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV76	k:Bacteria,p:Actinobacteria
+zASV103	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV74	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV80	k:Bacteria,p:Actinobacteria
+zASV83	k:Bacteria
+zASV95	k:Bacteria,p:Actinobacteria
+zASV86	k:Bacteria
+zASV56	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV92	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Alteromonadaceae,g:Alteromonas,s:Alteromonas naphthalenivorans
+zASV90	
+zASV91	k:Bacteria
+zASV87	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Alteromonadaceae,g:Alteromonas,s:Alteromonas naphthalenivorans
+zASV146	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV69	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV88	k:Bacteria
+zASV129	
+zASV111	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV106	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV98	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV101	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV100	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV115	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV79	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV70	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV117	k:Bacteria,p:Actinobacteria,c:Actinobacteria
+zASV78	
+zASV108	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV140	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV104	k:Bacteria,p:Actinobacteria
+zASV136	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV254	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Marivita,s:Marivita litorea
+zASV84	
+zASV118	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV126	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV119	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV121	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV147	
+zASV102	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV134	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV99	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV82	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV151	k:Bacteria,p:Actinobacteria,c:Actinobacteria
+zASV156	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV165	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV465	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV85	k:Bacteria,p:Actinobacteria
+zASV97	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV172	
+zASV114	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV193	
+zASV157	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV145	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV109	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Thiotrichales,f:Piscirickettsiaceae,g:Cycloclasticus
+zASV93	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV125	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV195	
+zASV138	k:Bacteria,p:Actinobacteria,c:Actinobacteria
+zASV81	
+zASV107	
+zASV184	k:Bacteria,p:Actinobacteria,c:Actinobacteria
+zASV163	k:Bacteria,p:Actinobacteria
+zASV130	
+zASV133	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV143	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Sulfitobacter
+zASV204	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV161	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV167	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV152	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV112	
+zASV127	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Thiotrichales,f:Piscirickettsiaceae,g:Cycloclasticus
+zASV150	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV159	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Psychrobacter,s:Psychrobacter submarinus
+zASV196	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV160	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV135	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV210	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV177	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV182	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV175	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Sulfitobacter
+zASV137	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Sulfitobacter
+zASV164	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV214	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV192	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV120	
+zASV169	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV197	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV149	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV124	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV191	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV186	
+zASV110	
+zASV218	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV185	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Psychrobacter,s:Psychrobacter submarinus
+zASV288	k:Bacteria,p:Actinobacteria
+zASV211	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV179	
+zASV181	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV148	
+zASV256	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV174	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV268	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV142	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Psychrobacter,s:Psychrobacter submarinus
+zASV173	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Thiotrichales,f:Piscirickettsiaceae,g:Cycloclasticus
+zASV282	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV207	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV131	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV325	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV237	
+zASV280	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV194	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV141	k:Bacteria,p:Actinobacteria,c:Actinobacteria
+zASV224	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV162	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Psychrobacter,s:Psychrobacter submarinus
+zASV190	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Thiotrichales,f:Piscirickettsiaceae,g:Cycloclasticus
+zASV249	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Thiotrichales,f:Piscirickettsiaceae,g:Cycloclasticus
+zASV139	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Thiotrichales,f:Piscirickettsiaceae,g:Cycloclasticus
+zASV176	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV187	
+zASV154	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV270	k:Bacteria
+zASV206	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV189	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV235	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV258	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV158	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV233	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Sulfitobacter,s:Sulfitobacter dubius
+zASV226	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Thiotrichales,f:Piscirickettsiaceae,g:Cycloclasticus
+zASV166	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV178	k:Bacteria,p:Actinobacteria,c:Actinobacteria
+zASV219	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV221	k:Bacteria,p:Actinobacteria
+zASV144	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV217	
+zASV215	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV205	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV238	
+zASV208	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV244	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae,g:Erythrobacter
+zASV223	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV234	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV183	
+zASV153	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV171	
+zASV155	k:Bacteria,p:Actinobacteria,c:Actinobacteria
+zASV245	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV128	
+zASV287	k:Bacteria,p:Actinobacteria
+zASV313	k:Bacteria,p:Actinobacteria
+zASV310	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV252	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV213	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV240	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV300	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV259	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV436	
+zASV203	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV255	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV293	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Psychrobacter,s:Psychrobacter submarinus
+zASV332	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV199	
+zASV247	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Psychrobacter,s:Psychrobacter submarinus
+zASV239	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Psychrobacter,s:Psychrobacter submarinus
+zASV200	
+zASV364	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV229	
+zASV251	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae,g:Erythrobacter
+zASV236	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV261	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV263	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV375	k:Bacteria
+zASV327	
+zASV290	
+zASV278	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV198	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV284	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Sulfitobacter
+zASV250	
+zASV209	k:Bacteria,p:Actinobacteria
+zASV180	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV292	k:Bacteria
+zASV285	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae,g:Erythrobacter
+zASV265	
+zASV353	
+zASV230	
+zASV370	k:Bacteria
+zASV227	k:Bacteria,p:Actinobacteria
+zASV414	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV272	
+zASV298	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV228	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV201	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Psychrobacter,s:Psychrobacter submarinus
+zASV248	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV262	
+zASV329	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV269	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV317	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae,g:Erythrobacter
+zASV202	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV242	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV366	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV271	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV257	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV337	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV243	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV220	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae,g:Erythrobacter
+zASV339	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV294	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae,g:Erythrobacter
+zASV303	
+zASV188	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV320	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV336	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV225	
+zASV291	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV340	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV312	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV383	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV281	
+zASV418	
+zASV323	k:Bacteria
+zASV222	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV232	
+zASV274	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV326	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV512	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV216	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV260	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV212	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV369	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV307	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV266	k:Bacteria,p:Actinobacteria,c:Actinobacteria
+zASV302	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Litoreibacter,s:Litoreibacter ponti
+zASV346	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV231	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV304	
+zASV344	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV427	
+zASV374	k:Bacteria
+zASV356	
+zASV464	
+zASV283	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV458	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV372	
+zASV286	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV380	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV367	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV264	k:Bacteria,p:Actinobacteria
+zASV823	k:Bacteria
+zASV614	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV314	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV276	
+zASV354	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV362	k:Bacteria
+zASV385	
+zASV341	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV277	
+zASV415	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV398	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV376	k:Bacteria
+zASV324	
+zASV443	k:Bacteria,p:Actinobacteria
+zASV308	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV444	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV441	
+zASV309	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae,g:Erythrobacter
+zASV318	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae,g:Erythrobacter
+zASV361	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV333	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV368	
+zASV358	
+zASV296	
+zASV509	
+zASV388	
+zASV381	
+zASV316	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Limimaricola,s:Limimaricola hongkongensis
+zASV328	k:Bacteria
+zASV273	k:Bacteria,p:Actinobacteria
+zASV382	k:Bacteria,p:Actinobacteria
+zASV378	
+zASV377	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV416	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV365	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV330	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV536	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV345	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV406	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV352	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV391	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV331	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV305	
+zASV393	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV423	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV461	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV348	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV373	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV299	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV397	k:Bacteria,p:Actinobacteria
+zASV523	k:Bacteria
+zASV319	
+zASV343	k:Bacteria,p:Actinobacteria
+zASV389	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Litoreibacter,s:Litoreibacter ponti
+zASV311	
+zASV335	
+zASV425	k:Bacteria,p:Actinobacteria,c:Actinobacteria
+zASV390	
+zASV338	
+zASV322	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV642	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV513	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV438	
+zASV342	k:Bacteria,p:Actinobacteria
+zASV386	
+zASV473	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV347	
+zASV396	k:Bacteria
+zASV456	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Amylibacter,s:Amylibacter ulvae
+zASV439	
+zASV357	k:Bacteria
+zASV295	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Pseudoalteromonadaceae,g:Pseudoalteromonas
+zASV349	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV253	k:Bacteria,p:Actinobacteria,c:Actinobacteria
+zASV584	k:Bacteria
+zASV371	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV546	
+zASV351	
+zASV359	
+zASV541	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Limimaricola,s:Limimaricola hongkongensis
+zASV289	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV432	
+zASV407	
+zASV417	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Limimaricola,s:Limimaricola hongkongensis
+zASV334	k:Bacteria,p:Actinobacteria
+zASV442	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV422	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales
+zASV455	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV435	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV395	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV306	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV448	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV623	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV434	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV466	k:Bacteria,p:Nitrospinae,c:Nitrospinia,o:Nitrospinales,f:Nitrospinaceae,g:Nitrospina,s:Nitrospina gracilis
+zASV494	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV559	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Chromatiales
+zASV575	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV514	
+zASV471	
+zASV419	
+zASV399	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV503	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV489	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV535	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV421	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae,g:Erythrobacter
+zASV598	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV526	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV420	
+zASV534	
+zASV499	
+zASV498	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV428	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV564	k:Bacteria,p:Actinobacteria
+zASV475	
+zASV392	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae
+zASV504	k:Bacteria
+zASV409	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV467	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV481	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV772	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV384	k:Bacteria,p:Actinobacteria
+zASV424	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV405	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV459	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV644	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Limimaricola,s:Limimaricola hongkongensis
+zASV589	k:Bacteria
+zASV462	
+zASV472	
+zASV522	
+zASV413	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV447	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Limimaricola,s:Limimaricola hongkongensis
+zASV411	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV433	k:Bacteria
+zASV572	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV508	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV576	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV460	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Limimaricola,s:Limimaricola hongkongensis
+zASV360	
+zASV537	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Pseudoalteromonadaceae,g:Pseudoalteromonas
+zASV404	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV451	
+zASV474	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV519	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV517	k:Bacteria
+zASV445	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Limimaricola,s:Limimaricola hongkongensis
+zASV656	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae
+zASV539	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV491	
+zASV446	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV469	
+zASV792	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV531	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV528	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV529	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV630	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV525	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV556	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV486	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV704	
+zASV676	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV401	k:Bacteria
+zASV412	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV624	k:Bacteria,p:Actinobacteria
+zASV591	
+zASV759	k:Bacteria,p:Actinobacteria
+zASV563	k:Bacteria,p:Actinobacteria
+zASV426	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Pseudoalteromonadaceae,g:Pseudoalteromonas
+zASV463	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV453	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV588	
+zASV478	
+zASV543	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV483	k:Bacteria,p:Actinobacteria
+zASV677	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Litoreibacter,s:Litoreibacter ponti
+zASV440	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV558	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV778	
+zASV410	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV501	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV736	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV570	k:Bacteria,p:Actinobacteria
+zASV470	k:Bacteria
+zASV812	
+zASV557	k:Bacteria
+zASV615	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV834	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV581	
+zASV875	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Litoreibacter,s:Litoreibacter ponti
+zASV437	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV484	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV658	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV708	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV457	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV515	
+zASV545	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV497	k:Bacteria
+zASV679	k:Bacteria
+zASV643	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV657	k:Bacteria,p:Actinobacteria
+zASV480	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV577	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV506	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV775	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV565	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales
+zASV574	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV662	
+zASV468	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Chromatiales
+zASV551	k:Bacteria
+zASV716	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae,g:Erythrobacter
+zASV496	k:Bacteria,p:Actinobacteria
+zASV450	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV659	
+zASV490	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV569	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV400	k:Bacteria,p:Bacteroidetes
+zASV664	k:Bacteria
+zASV516	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV520	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV809	
+zASV622	k:Bacteria,p:Actinobacteria
+zASV560	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV723	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV739	
+zASV711	k:Bacteria
+zASV488	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae
+zASV818	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV618	k:Bacteria,p:Actinobacteria
+zASV1105	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV603	k:Bacteria
+zASV870	
+zASV877	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV518	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV562	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV567	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV387	
+zASV675	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV408	
+zASV867	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV616	k:Bacteria,p:Actinobacteria
+zASV561	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV755	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV583	k:Bacteria
+zASV592	k:Bacteria,p:Bacteroidetes
+zASV485	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV795	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV730	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV777	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Limimaricola,s:Limimaricola hongkongensis
+zASV892	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV726	k:Bacteria
+zASV948	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV431	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV661	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV647	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV479	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV582	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV566	
+zASV502	k:Bacteria
+zASV715	k:Bacteria,p:Bacteroidetes
+zASV487	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV668	k:Bacteria
+zASV848	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV571	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV476	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales
+zASV1144	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae,g:Polaribacter
+zASV599	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV597	k:Bacteria
+zASV548	k:Bacteria,p:Nitrospinae,c:Nitrospinia,o:Nitrospinales,f:Nitrospinaceae,g:Nitrospina,s:Nitrospina gracilis
+zASV692	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV587	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV721	
+zASV815	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV705	k:Bacteria,p:Actinobacteria
+zASV613	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV654	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV816	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV568	k:Bacteria
+zASV608	k:Bacteria
+zASV695	k:Bacteria
+zASV738	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV645	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV604	
+zASV912	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae
+zASV801	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV855	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Amylibacter,s:Amylibacter ulvae
+zASV932	k:Bacteria
+zASV363	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV607	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV549	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV891	k:Bacteria
+zASV753	
+zASV722	k:Bacteria,p:Actinobacteria
+zASV601	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV586	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV796	
+zASV602	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV609	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV605	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV689	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV596	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Pseudoalteromonadaceae,g:Pseudoalteromonas
+zASV667	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Pseudoalteromonadaceae,g:Pseudoalteromonas
+zASV655	k:Bacteria,p:Actinobacteria,c:Actinobacteria
+zASV927	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV682	
+zASV757	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV895	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV430	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV547	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV728	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Amylibacter,s:Amylibacter ulvae
+zASV749	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV712	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV903	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV646	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodospirillales,f:Rhodospirillaceae
+zASV639	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV611	k:Bacteria
+zASV784	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales
+zASV683	k:Bacteria
+zASV832	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV619	
+zASV719	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV1059	k:Bacteria,p:Actinobacteria
+zASV802	k:Bacteria
+zASV882	k:Bacteria
+zASV671	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV694	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV807	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV897	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV874	k:Bacteria,p:Verrucomicrobia
+zASV665	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV805	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV841	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV904	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV718	k:Bacteria,p:Proteobacteria
+zASV686	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV542	
+zASV972	k:Bacteria
+zASV524	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV787	k:Bacteria,p:Actinobacteria
+zASV724	k:Bacteria,p:Actinobacteria
+zASV579	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Limimaricola,s:Limimaricola hongkongensis
+zASV544	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae
+zASV937	k:Bacteria,p:Actinobacteria
+zASV629	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae,g:Erythrobacter
+zASV944	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV650	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV963	k:Bacteria,p:Verrucomicrobia
+zASV538	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Vibrionales,f:Vibrionaceae,g:Vibrio,s:Vibrio splendidus
+zASV573	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV621	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV649	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV620	k:Bacteria,p:Actinobacteria
+zASV680	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1019	k:Bacteria
+zASV713	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV554	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV687	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae,g:Erythrobacter
+zASV590	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Chromatiales
+zASV879	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae
+zASV764	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV800	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV693	k:Bacteria,p:Cyanobacteria,c:NA,o:Synechococcales
+zASV578	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1170	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV754	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1007	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV729	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV990	k:Bacteria
+zASV674	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV610	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV640	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1069	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV747	k:Bacteria,p:Actinobacteria
+zASV931	k:Bacteria,p:Actinobacteria
+zASV492	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV595	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV553	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV854	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV833	k:Bacteria
+zASV690	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae
+zASV752	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV836	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales
+zASV740	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV761	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Pseudoalteromonadaceae,g:Pseudoalteromonas
+zASV973	k:Bacteria
+zASV691	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV641	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV751	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales
+zASV697	k:Bacteria,p:Verrucomicrobia,c:Verrucomicrobiae,o:Verrucomicrobiales,f:Verrucomicrobiaceae
+zASV743	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV670	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV799	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV825	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV698	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1030	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV857	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV986	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV763	k:Bacteria,p:Cyanobacteria,c:NA,o:Synechococcales
+zASV785	k:Bacteria
+zASV766	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1001	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV881	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae,g:Polaribacter
+zASV894	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV822	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV788	k:Bacteria
+zASV632	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae
+zASV827	k:Bacteria,p:Cyanobacteria,c:NA,o:Synechococcales
+zASV916	k:Bacteria
+zASV930	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV960	k:Bacteria
+zASV902	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodospirillales,f:Rhodospirillaceae,g:Nisaea,s:Nisaea denitrificans
+zASV831	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV725	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1008	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV702	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV707	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV943	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV975	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV701	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1101	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV940	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1142	k:Bacteria,p:Verrucomicrobia
+zASV980	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1072	k:Bacteria,p:Actinobacteria
+zASV1085	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1137	k:Bacteria
+zASV1090	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1077	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV530	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV756	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae,g:Polaribacter
+zASV776	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae,g:Polaribacter
+zASV1151	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1188	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Amylibacter,s:Amylibacter ulvae
+zASV1155	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae
+zASV612	k:Bacteria,p:Bacteroidetes
+zASV1097	k:Bacteria
+zASV789	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV899	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV925	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV727	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV852	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV700	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV814	k:Bacteria
+zASV663	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV859	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV673	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV555	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV684	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV493	
+zASV1226	k:Bacteria
+zASV710	k:Bacteria,p:Bacteroidetes,c:Cytophagia,o:Cytophagales
+zASV779	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV885	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV660	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV696	k:Bacteria,p:Cyanobacteria,c:NA
+zASV688	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1012	
+zASV638	k:Bacteria,p:Bacteroidetes
+zASV1222	k:Bacteria,p:Nitrospinae,c:Nitrospinia,o:Nitrospinales,f:Nitrospinaceae,g:Nitrospina,s:Nitrospina gracilis
+zASV835	k:Bacteria,p:Cyanobacteria,c:NA
+zASV744	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV790	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV830	k:Bacteria
+zASV941	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales
+zASV1298	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae,g:Winogradskyella
+zASV810	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1314	k:Bacteria,p:Nitrospinae,c:Nitrospinia,o:Nitrospinales,f:Nitrospinaceae,g:Nitrospina,s:Nitrospina gracilis
+zASV780	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV893	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV669	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1385	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV939	k:Bacteria,p:Verrucomicrobia,c:Verrucomicrobiae,o:Verrucomicrobiales,f:Verrucomicrobiaceae
+zASV782	k:Bacteria
+zASV594	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV714	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV924	k:Bacteria
+zASV1051	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV863	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV806	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV906	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV970	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV1047	k:Bacteria
+zASV983	
+zASV887	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV846	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV869	k:Bacteria
+zASV956	k:Bacteria,p:Verrucomicrobia,c:Verrucomicrobiae,o:Verrucomicrobiales,f:Verrucomicrobiaceae
+zASV952	k:Bacteria
+zASV953	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1076	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1038	k:Bacteria
+zASV550	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV767	k:Bacteria,p:Actinobacteria,c:Actinobacteria
+zASV1040	k:Bacteria,p:Nitrospinae,c:Nitrospinia,o:Nitrospinales,f:Nitrospinaceae,g:Nitrospina,s:Nitrospina gracilis
+zASV552	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV994	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV840	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1135	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV803	k:Bacteria
+zASV933	k:Bacteria
+zASV873	k:Bacteria,p:Bacteroidetes
+zASV1046	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1025	k:Bacteria,p:Cyanobacteria,c:NA
+zASV717	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1034	k:Bacteria,p:Bacteroidetes
+zASV991	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Chromatiales
+zASV648	k:Bacteria
+zASV1006	k:Bacteria,p:Actinobacteria
+zASV1036	k:Bacteria
+zASV1016	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1028	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV1081	
+zASV829	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV922	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1104	k:Bacteria,p:Actinobacteria
+zASV1141	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV628	k:Bacteria,p:Actinobacteria
+zASV1095	k:Bacteria,p:Cyanobacteria,c:NA,o:Synechococcales
+zASV999	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Amylibacter,s:Amylibacter ulvae
+zASV652	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1052	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1065	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1079	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV1244	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV631	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1115	k:Bacteria
+zASV1277	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV580	k:Bacteria,p:Actinobacteria
+zASV794	
+zASV681	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1117	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1094	
+zASV1020	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1067	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV672	k:Bacteria,p:Cyanobacteria
+zASV1114	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1147	k:Bacteria,p:Actinobacteria
+zASV606	k:Bacteria,p:Nitrospinae,c:Nitrospinia,o:Nitrospinales,f:Nitrospinaceae,g:Nitrospina,s:Nitrospina gracilis
+zASV734	
+zASV1282	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae,g:Polaribacter
+zASV746	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV750	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV851	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae,g:Erythrobacter
+zASV844	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV1279	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV1236	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodospirillales,f:Rhodospirillaceae,g:Nisaea,s:Nisaea denitrificans
+zASV769	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV1196	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV866	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV617	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV876	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV880	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV878	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1289	k:Bacteria,p:Actinobacteria
+zASV1189	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1213	k:Bacteria
+zASV1216	k:Bacteria
+zASV678	
+zASV1268	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1290	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1333	k:Bacteria
+zASV1207	k:Bacteria,p:Actinobacteria,c:Actinobacteria
+zASV1321	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV1346	k:Bacteria
+zASV1322	
+zASV706	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV847	k:Bacteria,p:Cyanobacteria,c:NA
+zASV737	k:Bacteria
+zASV842	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1413	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV666	k:Bacteria,p:Actinobacteria
+zASV1304	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV1296	k:Bacteria
+zASV733	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV786	k:Bacteria,p:Actinobacteria
+zASV762	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV1389	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV915	k:Bacteria
+zASV811	k:Bacteria
+zASV896	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1323	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1031	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV905	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV920	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV745	k:Bacteria
+zASV820	k:Bacteria,p:Verrucomicrobia
+zASV921	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1494	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV883	k:Bacteria,p:Verrucomicrobia,c:Verrucomicrobiae,o:Verrucomicrobiales
+zASV1462	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV926	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae
+zASV781	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV968	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae,g:Erythrobacter
+zASV890	k:Bacteria,p:Verrucomicrobia,c:Verrucomicrobiae,o:Verrucomicrobiales
+zASV934	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV808	k:Bacteria,p:Actinobacteria
+zASV918	k:Bacteria
+zASV1048	
+zASV853	k:Bacteria,p:Actinobacteria,c:Actinobacteria
+zASV1014	k:Bacteria
+zASV872	k:Bacteria,p:Actinobacteria
+zASV1003	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1015	k:Bacteria
+zASV1005	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV770	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales
+zASV793	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV839	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV813	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV768	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV942	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae
+zASV797	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales
+zASV1039	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV913	
+zASV1032	k:Bacteria,p:Actinobacteria
+zASV1058	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV862	k:Bacteria
+zASV910	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1021	
+zASV917	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV861	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV928	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1109	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV819	k:Bacteria,p:Actinobacteria
+zASV1124	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV838	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV992	k:Bacteria
+zASV1078	k:Bacteria,p:Cyanobacteria
+zASV864	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV856	k:Bacteria
+zASV886	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae
+zASV1037	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV837	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Amylibacter,s:Amylibacter ulvae
+zASV1140	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV976	k:Bacteria,p:Cyanobacteria,c:NA
+zASV958	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV946	k:Bacteria
+zASV1009	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1022	k:Bacteria,p:Cyanobacteria
+zASV982	k:Bacteria,p:Cyanobacteria,c:NA
+zASV914	k:Bacteria,p:Proteobacteria
+zASV950	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1023	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV884	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae,g:Erythrobacter
+zASV985	k:Bacteria
+zASV971	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1156	
+zASV1106	k:Bacteria,p:Planctomycetes,c:Planctomycetia,o:Planctomycetales,f:Planctomycetaceae,g:Bythopirellula,s:Bythopirellula goksoyri
+zASV1018	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1054	k:Bacteria
+zASV898	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1044	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1062	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1066	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Sphingomonadaceae,g:Sphingomonas
+zASV907	k:Bacteria,p:Bacteroidetes
+zASV1110	k:Bacteria,p:Nitrospinae,c:Nitrospinia,o:Nitrospinales,f:Nitrospinaceae,g:Nitrospina,s:Nitrospina gracilis
+zASV1138	k:Bacteria
+zASV908	k:Bacteria,p:Bacteroidetes
+zASV1074	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodospirillales,f:Rhodospirillaceae,g:Nisaea,s:Nisaea denitrificans
+zASV1096	k:Bacteria,p:Proteobacteria
+zASV1111	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV945	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV965	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV936	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV954	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1033	k:Bacteria
+zASV955	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1041	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV989	k:Bacteria
+zASV979	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1129	k:Bacteria,p:Verrucomicrobia,c:Verrucomicrobiae,o:Verrucomicrobiales,f:Verrucomicrobiaceae
+zASV1121	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV974	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV1149	k:Bacteria
+zASV1068	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Amylibacter,s:Amylibacter ulvae
+zASV1013	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodospirillales,f:Rhodospirillaceae
+zASV1108	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1262	
+zASV1060	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1159	k:Bacteria,p:Bacteroidetes
+zASV1126	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodospirillales,f:Rhodospirillaceae
+zASV1212	k:Bacteria,p:Cyanobacteria
+zASV593	k:Bacteria,p:Planctomycetes,c:Planctomycetia,o:Planctomycetales,f:Planctomycetaceae
+zASV1162	k:Bacteria
+zASV1209	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1073	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV997	k:Bacteria
+zASV1168	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1154	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae,g:Erythrobacter
+zASV1092	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1163	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodospirillales,f:Acetobacteraceae
+zASV1071	k:Bacteria,p:Cyanobacteria
+zASV1080	k:Bacteria
+zASV1099	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1107	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1082	k:Bacteria
+zASV1131	k:Bacteria
+zASV1150	k:Bacteria
+zASV1075	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1176	k:Bacteria
+zASV1128	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1123	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Colwelliaceae,g:Colwellia
+zASV1263	k:Bacteria
+zASV1116	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1132	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1134	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Chromatiales
+zASV1184	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1193	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1157	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1260	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1161	k:Bacteria
+zASV1178	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1181	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1265	k:Bacteria,p:Actinobacteria
+zASV1194	k:Bacteria
+zASV1175	k:Bacteria
+zASV1274	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1198	k:Bacteria
+zASV1191	k:Bacteria,p:Nitrospinae,c:Nitrospinia,o:Nitrospinales,f:Nitrospinaceae,g:Nitrospina,s:Nitrospina gracilis
+zASV1261	
+zASV1179	k:Bacteria
+zASV1167	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV1246	k:Bacteria
+zASV1267	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1270	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae,g:Gramella
+zASV1208	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1271	k:Bacteria
+zASV1335	
+zASV1231	k:Bacteria,p:Actinobacteria,c:Actinobacteria
+zASV1266	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1278	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae,g:Polaribacter
+zASV1242	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1371	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1297	k:Bacteria
+zASV633	k:Bacteria,p:Bacteroidetes
+zASV634	k:Bacteria,p:Bacteroidetes
+zASV651	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1300	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1283	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Halomonadaceae,g:Halomonas
+zASV1332	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV1286	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Sphingomonadaceae,g:Novosphingobium,s:Novosphingobium capsulatum
+zASV1301	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV1299	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV636	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1403	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1328	k:Bacteria
+zASV1311	k:Bacteria
+zASV1312	k:Bacteria,p:Cyanobacteria
+zASV1313	k:Bacteria
+zASV1368	k:Bacteria,p:Cyanobacteria,c:NA
+zASV1345	k:Bacteria,p:Cyanobacteria
+zASV1375	k:Bacteria,p:Cyanobacteria,c:NA
+zASV1364	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV1410	k:Bacteria
+zASV1380	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1379	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1409	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1330	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1326	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1336	k:Bacteria,p:Actinobacteria
+zASV1420	k:Bacteria,p:Verrucomicrobia,c:Verrucomicrobiae,o:Verrucomicrobiales,f:Verrucomicrobiaceae,g:Roseibacillus
+zASV1359	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1391	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1423	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1396	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1428	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1477	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1478	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1481	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1450	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1424	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae,g:Erythrobacter
+zASV1482	k:Bacteria,p:Cyanobacteria,c:NA,o:Synechococcales
+zASV1440	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV1475	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1456	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodospirillales,f:Rhodospirillaceae
+zASV1518	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1461	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1597	k:Bacteria
+zASV1455	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1610	k:Bacteria
+zASV774	
+zASV703	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV735	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV791	
+zASV1500	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV742	k:Bacteria,p:Bacteroidetes
+zASV1608	k:Bacteria,p:Proteobacteria
+zASV1613	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodospirillales,f:Rhodospirillaceae
+zASV765	k:Bacteria
+zASV1509	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV731	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV798	k:Bacteria
+zASV758	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV828	k:Bacteria,p:Cyanobacteria
+zASV760	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV858	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae,g:Polaribacter
+zASV865	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV845	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV804	k:Bacteria,p:Actinobacteria,c:Actinobacteria
+zASV860	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV888	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae,g:Polaribacter
+zASV909	k:Bacteria,p:Cyanobacteria,c:NA
+zASV849	k:Bacteria,p:Actinobacteria
+zASV871	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV935	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV889	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV901	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV868	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Alcanivoracaceae,g:Alcanivorax,s:Alcanivorax venustensis
+zASV949	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV900	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV951	k:Bacteria
+zASV964	k:Bacteria,p:Verrucomicrobia
+zASV947	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV961	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV938	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1024	
+zASV957	k:Bacteria,p:Actinobacteria
+zASV959	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1010	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV966	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae,g:Erythrobacter
+zASV962	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1035	k:Bacteria
+zASV969	k:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Acidovorax
+zASV1011	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1004	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1049	k:Bacteria,p:Verrucomicrobia
+zASV1000	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Colwelliaceae,g:Colwellia,s:Colwellia psychrerythraea
+zASV988	
+zASV1017	k:Bacteria,p:Actinobacteria
+zASV1055	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae,g:Polaribacter
+zASV1027	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Colwelliaceae,g:Colwellia,s:Colwellia psychrerythraea
+zASV1053	k:Bacteria
+zASV1026	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1050	k:Bacteria
+zASV984	k:Bacteria
+zASV1043	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV998	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1057	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV977	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1056	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV995	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1087	k:Bacteria,p:Nitrospinae,c:Nitrospinia,o:Nitrospinales,f:Nitrospinaceae,g:Nitrospina,s:Nitrospina gracilis
+zASV993	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1063	k:Bacteria,p:Proteobacteria
+zASV1064	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1091	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1061	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Hyphomonadaceae,g:Hyphomonas
+zASV1086	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodospirillales
+zASV1093	k:Bacteria,p:Cyanobacteria
+zASV1084	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV1100	k:Bacteria
+zASV1112	
+zASV1102	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1088	k:Bacteria,p:Actinobacteria
+zASV1083	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodospirillales,f:Rhodospirillaceae,g:Nisaea,s:Nisaea denitrificans
+zASV1119	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1089	k:Bacteria,p:Actinobacteria
+zASV1103	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1127	k:Bacteria
+zASV1146	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1145	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1120	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1136	k:Bacteria
+zASV1122	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1118	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Colwelliaceae,g:Colwellia,s:Colwellia psychrerythraea
+zASV1125	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1130	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1164	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1152	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae,g:Gramella
+zASV1160	k:Bacteria
+zASV1148	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1139	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1177	k:Bacteria,p:Cyanobacteria,c:NA
+zASV1169	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1192	
+zASV1171	k:Bacteria
+zASV1182	k:Bacteria,p:Cyanobacteria,c:NA,o:Synechococcales
+zASV1173	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1153	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae,g:Erythrobacter
+zASV1187	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1185	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales
+zASV1172	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV1166	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1190	k:Bacteria
+zASV1183	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV1195	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV1204	
+zASV1186	k:Bacteria,p:Actinobacteria
+zASV1200	k:Bacteria,p:Cyanobacteria,c:NA
+zASV1202	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1205	k:Bacteria,p:Cyanobacteria,c:NA
+zASV1197	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1199	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1211	k:Bacteria,p:Cyanobacteria,c:NA
+zASV1201	k:Bacteria,p:Proteobacteria
+zASV1206	k:Bacteria,p:Cyanobacteria
+zASV1219	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1218	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1203	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1220	k:Bacteria,p:Cyanobacteria,c:NA
+zASV1214	k:Bacteria,p:Cyanobacteria
+zASV1215	k:Bacteria
+zASV1210	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV1227	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1224	k:Bacteria,p:Bacteroidetes
+zASV1217	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhizobiales
+zASV1223	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Psychrobacter
+zASV1235	k:Bacteria
+zASV1225	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Amylibacter,s:Amylibacter ulvae
+zASV1232	k:Bacteria
+zASV1230	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Pseudoalteromonadaceae,g:Pseudoalteromonas,s:Pseudoalteromonas denitrificans
+zASV1238	k:Bacteria,p:Cyanobacteria,c:NA,o:Synechococcales
+zASV1229	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Oceanospirillaceae,g:Oleispira,s:Oleispira antarctica
+zASV1240	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV1234	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1233	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Pseudoalteromonadaceae,g:Pseudoalteromonas,s:Pseudoalteromonas denitrificans
+zASV1239	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1245	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1241	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Colwelliaceae,g:Colwellia
+zASV1248	k:Bacteria
+zASV1243	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Colwelliaceae,g:Colwellia,s:Colwellia aquaemaris
+zASV1250	k:Bacteria
+zASV1251	k:Bacteria
+zASV1257	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1258	k:Bacteria
+zASV1247	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Alcanivoracaceae,g:Alcanivorax,s:Alcanivorax venustensis
+zASV1264	k:Bacteria,p:Planctomycetes,c:Planctomycetia,o:Planctomycetales,f:Planctomycetaceae
+zASV1259	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1249	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1253	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1252	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1254	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Alcanivoracaceae,g:Alcanivorax,s:Alcanivorax venustensis
+zASV1284	k:Bacteria
+zASV1269	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1281	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV1291	k:Bacteria
+zASV1275	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1302	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1285	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1276	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Pseudoalteromonadaceae,g:Pseudoalteromonas
+zASV1307	
+zASV1280	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1288	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV1287	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Sphingomonadaceae,g:Novosphingobium,s:Novosphingobium capsulatum
+zASV1295	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1293	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1272	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1303	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Amylibacter,s:Amylibacter ulvae
+zASV1309	k:Bacteria
+zASV1305	k:Bacteria,p:Proteobacteria,c:Betaproteobacteria
+zASV1325	k:Bacteria,p:Planctomycetes,c:Planctomycetia,o:Planctomycetales,f:Planctomycetaceae
+zASV1329	k:Bacteria,p:Planctomycetes,c:Planctomycetia,o:Planctomycetales,f:Planctomycetaceae
+zASV1342	k:Bacteria,p:Cyanobacteria,c:NA
+zASV1316	k:Bacteria,p:Cyanobacteria
+zASV1334	k:Bacteria,p:Verrucomicrobia,c:Verrucomicrobiae,o:Verrucomicrobiales
+zASV1317	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1319	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1310	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Sphingomonadaceae,g:Sphingomonas
+zASV1338	k:Bacteria,p:Bacteroidetes
+zASV1339	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales
+zASV1320	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV1318	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV1341	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1347	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1360	
+zASV1356	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1354	k:Bacteria,p:Cyanobacteria,c:NA
+zASV1343	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1352	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1357	k:Bacteria,p:Verrucomicrobia,c:Verrucomicrobiae,o:Verrucomicrobiales,f:Verrucomicrobiaceae
+zASV1348	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1350	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1351	k:Bacteria
+zASV1353	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1349	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV1344	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1361	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV1358	k:Bacteria
+zASV1362	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV1369	k:Bacteria,p:Planctomycetes,c:Planctomycetia,o:Planctomycetales,f:Planctomycetaceae
+zASV1374	k:Bacteria,p:Cyanobacteria,c:NA
+zASV1376	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1365	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Amylibacter,s:Amylibacter ulvae
+zASV1363	k:Bacteria,p:Actinobacteria
+zASV1373	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1366	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodospirillales
+zASV1378	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV1382	k:Bacteria
+zASV1388	k:Bacteria
+zASV1377	k:Bacteria,p:Cyanobacteria
+zASV1367	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV1383	k:Bacteria,p:Proteobacteria
+zASV1384	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1392	k:Bacteria
+zASV1397	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1394	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae,g:Polaribacter
+zASV1387	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1395	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV1399	k:Bacteria
+zASV1401	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1400	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae,g:Polaribacter
+zASV1402	k:Bacteria
+zASV1390	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Alcanivoracaceae,g:Alcanivorax,s:Alcanivorax venustensis
+zASV1405	k:Bacteria,p:Bacteroidetes
+zASV1406	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae,g:Polaribacter
+zASV1393	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Alcanivoracaceae,g:Alcanivorax,s:Alcanivorax venustensis
+zASV1407	k:Bacteria
+zASV1398	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1408	k:Bacteria
+zASV1415	
+zASV1414	k:Bacteria
+zASV1404	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1427	
+zASV1412	k:Bacteria
+zASV1421	k:Bacteria
+zASV1425	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1426	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1429	k:Bacteria,p:Verrucomicrobia
+zASV1411	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1430	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1431	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1433	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1419	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1434	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae,g:Polaribacter
+zASV1445	
+zASV1439	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1437	k:Bacteria
+zASV1442	k:Bacteria,p:Cyanobacteria
+zASV1443	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae,g:Polaribacter
+zASV1435	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Pseudoalteromonadaceae,g:Pseudoalteromonas,s:Pseudoalteromonas denitrificans
+zASV1432	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae
+zASV1444	k:Bacteria,p:Proteobacteria
+zASV1438	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Erythrobacteraceae,g:Erythrobacter
+zASV1436	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Alcanivoracaceae,g:Alcanivorax,s:Alcanivorax venustensis
+zASV1459	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1447	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1463	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1452	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1453	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Pseudomonadales,f:Moraxellaceae,g:Psychrobacter
+zASV1457	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV1454	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1449	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Oceanospirillales,f:Oceanospirillaceae,g:Oleispira,s:Oleispira antarctica
+zASV1465	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1458	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Amylibacter,s:Amylibacter ulvae
+zASV1460	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1476	k:Bacteria,p:Cyanobacteria,c:NA
+zASV1472	k:Bacteria
+zASV1487	
+zASV1469	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1464	k:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Pelomonas
+zASV1474	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1486	k:Bacteria,p:Cyanobacteria,c:NA
+zASV1484	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV1471	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1485	k:Bacteria,p:Cyanobacteria,c:NA,o:Synechococcales
+zASV1470	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV1492	
+zASV1483	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1479	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1488	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1489	k:Bacteria,p:Cyanobacteria
+zASV1493	k:Bacteria,p:Cyanobacteria,c:NA
+zASV1480	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodospirillales,f:Rhodospirillaceae,g:Nisaea,s:Nisaea denitrificans
+zASV1491	k:Bacteria
+zASV1496	k:Bacteria,p:Cyanobacteria,c:NA,o:Synechococcales
+zASV1508	
+zASV1499	k:Bacteria,p:Nitrospinae,c:Nitrospinia,o:Nitrospinales,f:Nitrospinaceae,g:Nitrospina,s:Nitrospina gracilis
+zASV1505	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1497	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1495	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1510	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1506	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1511	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1512	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales
+zASV1498	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1507	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV1504	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodospirillales,f:Rhodospirillaceae
+zASV1502	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1501	k:Bacteria,p:Actinobacteria
+zASV1513	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV1514	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae,g:Tenacibaculum
+zASV1519	k:Bacteria
+zASV1515	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV1524	k:Bacteria,p:Cyanobacteria,c:NA
+zASV1523	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV1517	k:Bacteria,p:Cyanobacteria
+zASV1525	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1526	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1532	
+zASV1529	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1527	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1521	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1533	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1522	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1535	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1541	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1528	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1531	k:Bacteria,p:Actinobacteria
+zASV1530	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodospirillales,f:Rhodospirillaceae
+zASV1534	k:Bacteria,p:Proteobacteria
+zASV1539	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1536	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1543	k:Bacteria
+zASV1537	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1547	k:Bacteria,p:Cyanobacteria,c:NA
+zASV1546	k:Bacteria,p:Cyanobacteria,c:NA
+zASV1548	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1538	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV1544	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1542	k:Bacteria,p:Actinobacteria
+zASV1545	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1553	k:Bacteria,p:Planctomycetes,c:Planctomycetia,o:Planctomycetales,f:Planctomycetaceae
+zASV1556	k:Bacteria,p:Verrucomicrobia,c:Verrucomicrobiae,o:Verrucomicrobiales,f:Verrucomicrobiaceae
+zASV1552	k:Bacteria,p:Bacteroidetes
+zASV1559	k:Bacteria,p:Nitrospinae,c:Nitrospinia,o:Nitrospinales,f:Nitrospinaceae,g:Nitrospina,s:Nitrospina gracilis
+zASV1549	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV1564	
+zASV1555	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1562	k:Bacteria
+zASV1557	k:Bacteria
+zASV1566	k:Bacteria,p:Verrucomicrobia,c:Verrucomicrobiae,o:Verrucomicrobiales
+zASV1561	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1565	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1554	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodospirillales,f:Rhodospirillaceae
+zASV1560	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Pseudoalteromonadaceae,g:Pseudoalteromonas,s:Pseudoalteromonas marina
+zASV1558	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1573	
+zASV1570	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1563	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Colwelliaceae,g:Colwellia,s:Colwellia psychrerythraea
+zASV1571	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1580	
+zASV1575	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1577	k:Bacteria
+zASV1567	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodospirillales,f:Rhodospirillaceae
+zASV1579	k:Bacteria
+zASV1581	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1568	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Pseudoalteromonadaceae,g:Pseudoalteromonas,s:Pseudoalteromonas denitrificans
+zASV1569	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1584	k:Bacteria,p:Planctomycetes,c:Planctomycetia,o:Planctomycetales,f:Planctomycetaceae
+zASV1585	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1572	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1589	k:Bacteria,p:Planctomycetes,c:Planctomycetia,o:Planctomycetales,f:Planctomycetaceae
+zASV1592	
+zASV1574	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1578	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1588	k:Bacteria
+zASV1582	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1587	k:Bacteria
+zASV1590	k:Bacteria
+zASV1591	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1595	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1598	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1586	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1600	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1603	k:Bacteria,p:Planctomycetes,c:Planctomycetia,o:Planctomycetales,f:Planctomycetaceae
+zASV1593	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1594	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1602	k:Bacteria
+zASV1611	
+zASV1601	k:Bacteria
+zASV1604	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1606	k:Bacteria
+zASV1612	k:Bacteria,p:Planctomycetes,c:Planctomycetia,o:Planctomycetales,f:Planctomycetaceae
+zASV1605	k:Bacteria,p:Proteobacteria
+zASV1599	k:Bacteria,p:Actinobacteria
+zASV1609	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1607	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodospirillales
+zASV1618	k:Bacteria,p:Cyanobacteria,c:NA
+zASV1621	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1615	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1616	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1627	
+zASV1625	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1624	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV1623	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1617	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodospirillales,f:Rhodospirillaceae
+zASV1619	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1614	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1632	
+zASV1630	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1622	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Alteromonadaceae,g:Marinobacter
+zASV1629	k:Bacteria,p:Bacteroidetes,c:Flavobacteriia,o:Flavobacteriales,f:Flavobacteriaceae
+zASV1631	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1620	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1640	
+zASV1628	k:Bacteria,p:Actinobacteria
+zASV1639	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1633	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1644	k:Bacteria
+zASV1636	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae,g:Sulfitobacter,s:Sulfitobacter dubius
+zASV1650	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1634	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1635	k:Bacteria,p:Proteobacteria,c:Betaproteobacteria,o:Burkholderiales,f:Comamonadaceae,g:Acidovorax
+zASV1641	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Sphingomonadaceae,g:Novosphingobium,s:Novosphingobium capsulatum
+zASV1653	k:Bacteria
+zASV1647	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria
+zASV1648	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria
+zASV1654	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Pelagibacterales,f:Pelagibacteraceae,g:Pelagibacter,s:Pelagibacter ubique
+zASV1646	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Sphingomonadaceae,g:Sphingomonas,s:Sphingomonas oligophenolica
+zASV1642	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Sphingomonadales,f:Sphingomonadaceae,g:Novosphingobium,s:Novosphingobium capsulatum
+zASV1643	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria,o:Rhodobacterales,f:Rhodobacteraceae
+zASV1651	k:Bacteria,p:Proteobacteria,c:Gammaproteobacteria,o:Alteromonadales,f:Pseudoalteromonadaceae,g:Pseudoalteromonas,s:Pseudoalteromonas denitrificans
+zASV1652	k:Bacteria,p:Proteobacteria,c:Alphaproteobacteria

@@ -1,0 +1,859 @@
+---
+title: "zASV_Ranalysis"
+author: "Angelina G Angelova"
+date: "1/22/2020"
+output: pdf_document
+editor_options:
+  chunk_output_type: console
+  ...
+editor_options: 
+  chunk_output_type: Viewer Pane
+---
+
+1) load libraries & set working dir
+```{r load libraries}
+#Install xcode!
+#then in commandline run:
+#xcode-select --install #to install xcode tools
+
+
+# Install packages from CRAN and other repositories
+    #install.packages(c("boot", "foreign", "nlme","vegan", "metacoder", "taxa", "ggplot2", "dplyr", "readr",       "stringr", "agricolae", "ape", "reshape2", "broom", "tidyverse", "GUniFrac", "phangorn", "clustsig",           "scales", "grid", "survival", "data.table", "Biostrings", "RColorBrewer", "devtools",               "remotes","adespatial" , "biodiversityR"),  repos = "http://cran.rstudio.com",dependencies = TRUE)
+#install.packages(c("matrixStats", "Hmisc", "splines", "foreach", "doParallel", "fastcluster", "dynamicTreeCut", "survival", "phytools"))
+
+#biocManager/Bioconductor packages #some may not install due to dependencies which need to be manual
+  #install.packages("BiocManager")
+  #BiocManager::install(version = "3.10")
+  #BiocManager::install(c("phyloseq", "DESeq2", "Biobase", "mixOmics", "impute", "preprocessCore", "GO.db",      "AnnotationDbi", "RCy3", "impute", "ggtree"))
+
+
+#for manual installation (those are requirements of the BiocManager packages)
+    #BiocManager::install("WGCNA") #do not install from source!!! Download from link () and install the .tgz file (https://horvath.genetics.ucla.edu/html/CoexpressionNetwork/Rpackages/WGCNA/) 
+        #install.packages(‘Rcmdr’) # may not install from source! Download and install the .tgz file
+#file at (https://cran.r-project.org/web/packages/Rcmdr/index.html)
+library(WGCNA)
+
+
+#github packages
+library("devtools")
+#install_github("umerijaz/microbiomeSeq") #needs the BiocManager stuff installed
+#install_github("MadsAlbertsen/ampvis")
+#install_github("marchtaylor/sinkr")
+
+library("microbiomeSeq")
+
+#Load libraries
+x<-c("reshape2", "broom", "dplyr", "tidyverse", "GUniFrac", "phangorn", "doParallel", "phytools", "clustsig","scales", "grid", "vegan", "survival",  "data.table","ape", "Biostrings", "microbiomeSeq", "ampvis2", "RColorBrewer", "devtools","ampvis", "metacoder", "vegan", "taxa",  "readr", "stringr", "agricolae", "sinkr","ggtree", "mixOmics", "RCy3","biodiversityR", "phyloseq", "ggplot2") #that last one might not load
+
+lapply(x, require, character.only=T)
+rm(x)
+#lapply(x, function(k) detach( paste('package:', k, sep='', collapse=''), unload=TRUE, char=TRUE))
+
+theme_set(theme_bw())
+
+
+```
+
+Paths
+```{r}
+setwd("~/path/zOTUs/R/data/")
+input=NA
+input$path="~/path/zOTUs/R/data/"
+
+
+dir.create(paste0(input$path, "output/")) 
+output=NA
+output$path=paste0("~/path/zOTUs/R/data/", "output/")
+```
+
+
+###Add data:
+```{r load data}
+#load & order counts table (by clonames)
+data=NULL
+data$counts=read.table(paste0(input$path, "zASV_OTUtab-nonchim.txt"), row.names=1, header=T, check.names=F)
+data$counts<-data$counts[ , order(names(data$counts))]; data$counts[1:8, 1:8]
+names(data$counts)<- gsub("z", "_", names(data$counts))
+head(data$counts)
+dim(data$counts)
+
+#load metadata & order
+data$meta=read.table(paste0(input$path, "metadataR.txt"), header=T, row.names=1, check.names = F, sep='\t')
+data$meta <- data$meta[ order(row.names(data$meta)), ]
+head(data$meta)
+
+#Now load the taxonomy
+data$tax<-read.table(paste0(input$path, "zASV_TAXtab-nonchim.txt"), header=F, 
+                     row.names = 1, check.names=FALSE, sep="\t" )
+head(data$tax)
+taxhead=c("Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species")
+data$tax<-separate(data$tax, col = V2, into = taxhead, sep = ",")
+head(data$tax); tail(data$tax)
+rm(taxhead)
+dim(data$tax)
+
+data$tax[] <- lapply(data$tax, gsub, pattern='.:', replacement='')
+head(data$tax); dim(data$tax)
+
+#load OTU sequence fasta (optional) (better use aligned file)
+data$seq=readDNAStringSet(paste0(input$path, "zASV_SEQfa-nonchim.txt"))
+names(data$seq)=gsub(";size=[0-9]+", "", names(data$seq))
+data$seq
+```
+
+# fill out NA Species with deepest TAX rank
+```{r}
+data$taxdf=data$tax
+data$taxdf$Species[is.na(data$taxdf$Species)]<- "sp."; data$taxdf$Species
+data$taxdf$Species[data$taxdf$Species=="sp."]<- paste(data$taxdf$Genus, "sp.")
+data$taxdf$Species[data$taxdf$Species=="NA sp."] <- paste(data$taxdf$Family, "sp.")
+data$taxdf$Species[data$taxdf$Species=="NA sp."] <- paste(data$taxdf$Order, "sp.")
+data$taxdf$Species[data$taxdf$Species=="NA sp."] <- paste(data$taxdf$Class, "sp.")
+data$taxdf$Species[data$taxdf$Species=="NA sp."] <- paste(data$taxdf$Phylum, "sp.")
+data$taxdf$Species[data$taxdf$Species=="NA sp."] <- paste(data$taxdf$Kingdom, "sp.")
+data$taxdf$Species[data$taxdf$Species==" sp."] <- NA
+data$taxdf$Kingdom[data$taxdf$Kingdom==""]<-NA
+
+data$taxdf
+
+
+```
+
+
+###Merging all files together into a phyloseq object:
+```{r merging all files into a phyloseq object}
+#combine all samples into 1 phyloseq object
+OTU=otu_table(data$counts, taxa_are_rows = T)
+TAX=tax_table(as.matrix(data$taxdf))
+MET=sample_data(data$meta)
+
+phy=NULL
+phy$all<-merge_phyloseq(phyloseq(OTU, TAX), MET, data$seq) #tree
+```
+
+###Filter & Normalize (remove/unmount library(taxa) as it has some overlapping commands):
+```{r filter select and normalize subsets data}
+#ALL
+phy$flt<-phyloseq::filter_taxa(phy$all, function(x) sum(x>5) > 0.2*length(x), T)
+dim(phy$flt) #left with ~1431 ASVs
+
+#convert from counts to frequencies
+phy$freq=transform_sample_counts(phy$flt, function(x) 100*x/sum(x)) #normalize to 100%
+colSums(otu_table(phy$freq)[,1:9]) #should =100
+
+data$flt=as.data.frame(otu_table(phy$flt))
+data$tax_flt=as.data.frame(tax_table(phy$flt))
+dim(data$flt)
+```
+
+
+###alpha div measures (VEGAN):
+https://cran.r-project.org/web/packages/vegan/vignettes/diversity-vegan.pdf
+```{r simple alpha and rarefaction curves}
+
+#Number of individuals
+Indiv=colSums(otu_table(phy$flt)); Indiv
+min(Indiv); max(Indiv)
+
+#Observed Species richness:
+SpeciesRichness=specnumber(otu_table(phy$flt), MARGIN = 2); SpeciesRichness
+min(SpeciesRichness); max(SpeciesRichness)
+rarefy(otu_table(phy$flt), min(Indiv), se=F, MARGIN = 2) #expected Sp Richness
+
+#Shannon, Simpson and Inverse Simpson,  Pielou's Evenness, dominance:
+Shannon=vegan::diversity(as.matrix(otu_table(phy$flt)), "shannon", MARGIN = 2); Shannon
+#Simpson=vegan::diversity(as.matrix(otu_table(phy$flt)), "simpson", MARGIN=2); Simpson
+InvSimp=vegan::diversity(as.matrix(otu_table(phy$flt)), "inv", MARGIN = 2); InvSimp
+Evenness=Shannon/log(specnumber(otu_table(phy$flt), MARGIN = 2)); Evenness #this is Pielou's Evenness index
+```
+
+#Add info to the phyloseq objsect
+```{r}
+#Rbind all the results together & correct transformation
+alphas=cbind(Indiv, SpeciesRichness, Shannon, InvSimp, Evenness)
+alphas
+sample_data(phy$flt)=cbind(sample_data(phy$flt), alphas)
+sample_data(phy$flt)
+
+data$meta=cbind(data$meta, alphas)
+```
+
+###Subset samples (after calculating alpha div. indeces!)
+```{r subset samples by water mass}
+#only AWC samples
+phy$flt_ATL=subset_samples(phy$flt, WaterOrigin=="ATL")
+#phy$flt_ATL_freqs=subset_samples(phy$flt_freq, Water.Core=="AWC")
+
+#only NOR samples 
+phy$flt_NOR=subset_samples(phy$flt, WaterOrigin=="NOR")
+#phy$flt_NOR_freqs=subset_samples(phy$flt_freq, Water.Core=="NOR")
+```
+
+
+#Exporting DF
+```{r}
+#FSC
+write.table(as.data.frame(otu_table(phy$flt)), sep="\t", file=paste0(output$path, "counts_flt.txt"), quote = F)
+
+write.table(as.data.frame(tax_table(phy$flt)), sep="\t", file=paste0(output$path, "tax_flt.txt"), quote=F)
+
+write.table(as.data.frame(sample_data(phy$flt)), sep="\t", file=paste0(output$path, "meta_flt.txt"), quote=F)
+
+data$seqs=refseq(phy$flt)
+ampvis::amp_export(phy$flt, file=paste0(output$path, 'zASVs_flt.fasta'), tax=F)
+```
+
+
+###Boxplots of evenness and richness (ggplots of vegan):
+```{r alpha diversity boxplots}
+dir.create(paste0(output$path, "Boxplots/"))
+output$boxplots=paste0(output$path, "Boxplots/")
+library(ggsignif)
+
+colnames(data$meta)
+
+
+#library(dplyr)
+#data$meta=rename(data$meta, 
+          #c("SpRch"="SpRichness", "InvSimp"="InvSimpson","Evnss"="Evenness", "Indiv"="Reads"))
+#FSC~ 2WO
+sst=subset(data$meta,select=c(3, 6, 23, 26, 24, 25))
+sst_melt1=reshape2::melt(sst, id.var=c("WaterOrigin", "Season"))
+sst_melt1
+p1=ggplot(sst_melt1, aes(x=WaterOrigin, y=value, fill=Season)) + geom_boxplot() +
+  facet_wrap(~variable, scales="free") + labs(y="Alpha diversity measures", x="Water Origin") +
+  theme(text=element_text(size=16)); p1
+n=length(unique(data$meta$WaterOrigin))
+p2=p1 + geom_signif(comparisons=combn(n,2, simplify = F), test="t.test",
+                    map_signif_level = c("***" = 0.001, "**"= 0.01 , "*"=0.5, "."=0.065, " "=1),
+                    step_increase=0.05, color="gray60", tip_length=0.01, vjust=0.55); p2
+pdf(paste0(output$boxplots, "AlphaDiv_WO.pdf"), width=12); p2; dev.off()
+  
+#FSC ~4WMs
+sst=as.data.frame(subset(data$meta,select=c(3, 7, 23, 26, 24, 25)))
+sst_melt2=reshape2::melt(sst, id.var=c("Water.Mass", "Season"))
+sst_melt2
+p3=ggplot(sst_melt2, aes(x=Water.Mass, y=value, fill=Season)) + geom_boxplot() + 
+  facet_wrap(~variable, scales="free") + labs(y="Alpha diversity measures", x="Water Mass") +
+  theme(text=element_text(size=16)) +theme_bw(); p3
+l=length(unique(data$meta$Water.Mass))
+m=length(unique(data$meta$Season))
+p4 = p3 + geom_signif(comparisons=combn(l, 2, simplify = F), test="t.test",
+                    map_signif_level = c("***" = 0.001, "**"= 0.01 , "*"=0.5, "."=0.065, " "=1),
+                    step_increase=0.05, color="gray60", tip_length=0.01, vjust=0.55); p4
+
+pdf(paste0(output$boxplots, "AlphaDiv_WM.pdf"), width=12); p4; dev.off()
+```
+
+
+```{r ANOVA}
+#install.packages("forestmangr")
+library(forestmangr)
+
+#anova on the FSC ~ 2WOs ~Season
+  nma=sst_melt1 %>% group_by(variable) %>% 
+                      do(Model=aov(value ~ WaterOrigin + Season + WaterOrigin/Season, .))
+  sum=tidy(nma, Model); sum=sum[complete.cases(sum), ]; sum
+  sum=round_df(sum, 3, rf="round")
+  write.table(sum, file=paste0(output$boxplots, "AlphaDiv_ANOVA_WO+Season.txt"), 
+               quote = F, row.names = F, sep="\t")
+
+#anova on the FSC ~ 2WMs ~Season
+  nma=sst_melt2 %>% group_by(variable) %>% 
+                      do(Model=aov(value ~ Water.Mass + Season + Water.Mass/Season, .))
+  sum=tidy(nma, Model); sum=sum[complete.cases(sum), ]; sum
+  sum=round_df(sum, 3, rf="round")
+  write.table(print(sum), file=paste0(output$boxplots, "AlphaDiv_ANOVA_WM+Season.txt"),
+              quote = F, row.names = F, sep="\t")
+
+#ANOVA on the ATL ~ Seasons
+data$meta_ATL=data$meta[data$meta$WaterOrigin=="ATL", ]
+sst=as.data.frame(subset(data$meta_ATL,select=c(3, 23, 26, 24, 25)))
+sst_melt3=reshape2::melt(sst, id.var="Season")
+head(sst_melt3)
+  nma=sst_melt3 %>% group_by(variable) %>% do(Model=aov(value ~ Season, .))
+  sum=tidy(nma, Model); sum=sum[complete.cases(sum), ]; 
+  sum=round_df(sum, 3, rf="round")
+  write.table(print(sum), file=paste0(output$boxplots, "AlphaDiv_ANOVA_ATL~Season.txt"),
+              quote = F, row.names = F, sep="\t")
+
+#ANOVA on the NOR ~Seasons
+data$meta_NOR=data$meta[data$meta$WaterOrigin=="NOR", ]
+sst=as.data.frame(subset(data$meta_NOR,select=c(3, 23, 26, 24, 25)))
+sst_melt4=reshape2::melt(sst, id.var="Season")
+head(sst_melt4)
+  nma=sst_melt4 %>% group_by(variable) %>% do(Model=aov(value ~ Season, .))
+  sum=tidy(nma, Model); sum=sum[complete.cases(sum), ]; 
+  sum=round_df(sum, 3, rf="round")
+  write.table(print(sum), file=paste0(output$boxplots, "AlphaDiv_ANOVA_NOR~Season.txt"),
+              quote = F, row.names = F, sep="\t")
+```
+
+####myBeta diversity analyses:
+NMDS plots:
+```{r NMDS plot with orisurf}
+#find significant drivers
+library(microbiomeSeq)
+phy$species=taxa_level(t(phy$flt), which_level = "Species") #LOWER CLASSIFICATION TAKES TOO LONG AND CRASHES
+        dim(otu_table(phy$species))
+
+wis_fsc=sample_names(phy$species)
+wis_fsc$counts=as.data.frame(otu_table(phy$species))
+wis_fsc$wis_fsc=wisconsin(wis_fsc$counts)
+wis_fsc$meta=sample_data(phy$species)
+dim(wis_fsc$counts)
+
+#important to have all samples in order!!!!
+wis_fsc$counts=wis_fsc$counts[ , sort(colnames(wis_fsc$counts))] #sorts headers/colnames
+wis_fsc$meta <- wis_fsc$meta[sort(row.names(wis_fsc$meta)), ] #sorts rows
+
+library(sinkr)
+set.seed(2)
+res.biobio1 = bvStep(wis_fsc$wis_fsc, wis_fsc$wis_fsc) #the first is the fixed matrix, the second is used as the "variables" matrix (environmental)
+res.biobio1 #thats my best subset of variables that best explains the biotic structure of my samples
+#capture.output(res.biobio1, file= "R_output/nMDS/biobio1_seed2.txt")
+
+set.seed(5)
+res.biobio2 = bvStep(wis_fsc$wis_fsc, wis_fsc$wis_fsc, var.always.include = c(11,20,23,33,47))
+res.biobio2
+#capture.output(res.biobio2, file= "R_output/nMDS/biobio2_seed5.txt")
+#repeated variables are most significant
+
+
+#FSC all samples
+mono.bray=vegdist(t(data$flt), k=2, method="bray")
+mono.bray=monoMDS(mono.bray, model="hybrid")
+mono.bray$stress
+ordiplot(mono.bray, display="sites", type="text", ylim=c(-2,2))
+
+is <- as.numeric(data$meta$InvSimp)
+col.wm <- c("orange", "red", "lightblue", "darkblue")
+sf.wm <- factor(data$meta$Water.Mass)
+sf.seas <- factor(data$meta$Season)
+pchs.seas <- c(2,6)
+
+bio.keep = as.numeric(unlist(strsplit(res.biobio2$order.by.best$var.incl[1], ",")))
+bio.fit = envfit(mono.bray, wis_fsc$wis_fsc[,bio.keep], perm=999)
+#capture.output(bio.fit, file = "R_output/nMDS/biofilt.txt")
+
+dir.create(paste0(output$path, "nMDS/"))
+output$nMDS=paste0(output$path, "nMDS/")
+
+
+
+pdf(paste0(output$nMDS, "FSC_nMDS+Species1.pdf"))
+
+ordiplot(mono.bray, type="none", xlim=c(-2.0, 2.0), ylim=c(-2.0, 2.0))
+ordisurf(mono.bray~is, main="",col="lightgrey", add = TRUE)
+
+plot(bio.fit, col="gray70", cex=0.6, font=4, p.max = 0.06) # display only those with p>0.1
+points(mono.bray, display = "sites", pch = pchs.seas[sf.seas], col = col.wm[sf.wm], lwd=2)
+  
+legend("topright", legend=levels(sf.wm), bty = "n", col= col.wm, pch = c(16), cex=1)
+legend("bottomright", legend = levels(sf.seas), bty = "n", col = "black", pch=pchs.seas)
+
+ordiellipse(mono.bray, data$meta$WaterOrigin, conf= 0.70, label =F , lwd=0.5, col=c("darkorange3", "blue"))
+legend("topleft", legend = levels(data$meta$WaterOrigin), bty = "n", col = c("darkorange3", "blue"), pch=1)
+legend(x="bottomleft",  text.col= "azure4", cex = 0.6, # , pch=c("",""))
+       legend = c("gradient = Inv. Simpson ", paste("stress = ", round(mono.bray$stress, digits = 4)), "arrows = significant taxa") )
+      
+dev.off()
+```
+
+
+```{r anosim on beta div}
+  #ANOSIM to be combinded wiht nMDS
+mono.bray=vegdist(t(data$counts), k=2, method="bray")
+
+anowc=anosim(mono.bray, data$meta$Water.Core); summary(anowc)
+capture.output(summary(anowc), file="R_output/anosim/ANOSIM_FSC:AWC~NOR.txt")
+
+anosea=anosim(mono.bray, data$meta$Season); summary(anosea)
+capture.output(summary(anosea), file="R_output/anosim/ANOSIM_FSC:Spring~Fall.txt", append=T)
+
+anoyr=anosim(mono.bray, data$meta$Year); summary(anoyr)
+capture.output(summary(anoyr), file="R_output/anosim/ANOSIM_FSC:2014~2015.txt", append=T)
+
+############      AWC     ##############
+mono.bray.awc=vegdist(t(data$AWC$counts), k=2, method="bray")
+anoawcwm=anosim(mono.bray.awc, data$AWC$meta$Water.Mass); summary(anoawcwm)
+capture.output(summary(anoawcwm), file="R_output/anosim/ANOSIM_ATL:MNAW~NAW.txt")
+
+anoawcsea=anosim(mono.bray.awc, data$AWC$meta$Season); summary(anoawcsea)
+capture.output(summary(anoawcsea), file="R_output/anosim/ANOSIM_ATL:Spring~Fall.txt", append=T)
+
+anoawcyr=anosim(mono.bray.awc, data$AWC$meta$Year); summary(anoawcyr)
+capture.output(summary(anoawcsea), file="R_output/anosim/ANOSIM_ATL:2014~2015.txt", append=T)
+
+############## NOR     #################3
+mono.bray.nwc=vegdist(t(data$NOR$counts), k=2, method="bray")
+anonwcwm=anosim(mono.bray.nwc, data$NOR$meta$Water.Mass); summary(anonwcwm)
+capture.output(summary(anonwcwm), file="R_output/anosim/ANOSIM_NOR:NSAIW~NSDW.txt")
+
+anonwcsea=anosim(mono.bray.nwc, data$NOR$meta$Season); summary(anonwcsea)
+capture.output(summary(anonwcsea), file="R_output/anosim/ANOSIM_NOR:Spring~Fall.txt")
+
+anonwcyr=anosim(mono.bray.nwc, data$NOR$meta$Year); summary(anonwcyr)
+capture.output(summary(anonwcsea), file="R_output/anosim/ANOSIM_NOR:2014~2015.txt", append=T)
+```
+
+
+HOW OTUs RESPOND TO DIFFERENT ENV CONDITIONS (AND TO EACH OTHER)?
+CIRCLE CORRELATION PLOT!!!
+#Envirinmental will try Species correlated to different layers, 
+using http://mixomics.org/graphics/variable-plots/plotvar/
+I think this shows me how strongly correlated different Species is with the different environmental variables
++ and - does not matter, it is only for separation of the clusters
+Provides improved clustering 
+```{r envCircle Plots}
+
+library(mixOmics)
+phy$Species=taxa_level(t(phy$flt), "Species") #fill in the NAs
+
+
+layer.spls <-spls(otu_table(phy$Species), sample_data(phy$Species)[ , c(8,9,11, 18, 19, 20, 21)], ncomp=3, keepX = c(13, 13, 13))
+plotVar(layer.spls, overlap = T, cex=c(4, 8), col=c("darkblue", "darkred"))
+      
+dir.create(paste0(output$path, "CCAplot/"))
+output$CCA=paste0(output$path, "CCAplot/")
+
+pdf(paste0(output$CCA, "CCP_Species-all.pdf"))
+      plotVar(layer.spls, overlap = T, cex=c(3, 6), col=c("darkblue", "darkred"), title = "FSC bacterioplanktonic communities")
+          dev.off()
+write.table(layer.spls$variates, sep="\t", file=paste0(output$CCA, "CCP_Species.txt"), quote = F)
+
+ #DONE
+```
+
+
+###Explore how the communities respond to environmental CONDITIONS (Co-occurance pattern analysis)
+```{r ENVironmental anova}
+#ANOVA of environmental variables (tells which envs are significantly different from each other)
+library(microbiomeSeq)  #load the package
+
+#Works
+p <- plot_anova_env(data$meta, grouping_column = "Water.Mass", pValueCutoff = 0.05, 
+    select.variables = c("Obs.Salin", "Obs.Temp"))
+print(p)
+
+dir.create(paste0(output$path, "EnvANOVA"))
+output$envANOVA=paste0(output$path, "EnvANOVA/")
+
+pdf(paste0(output$envANOVA, "ANOVAenv.pdf"))
+print(p)
+dev.off()
+```
+
+
+THE ACTUAL MICROBIOMESEQ WAY: SPEARMAN correlations of TAXA vs ENVars
+Correlation between taxa abundance and environmental variables
+http://userweb.eng.gla.ac.uk/umer.ijaz/projects/microbiomeSeq_Tutorial.html#correlation
+1 - donot adjust
+2 - adjust environmental variables + Groups (column on the correlation plot)
+3 - adjust Taxa + Groups (row on the correlation plot for each Groups)
+4 - adjust Taxa (row on the correlation plot)
+5 - adjust environmental variables (panel on the correlation plot)
+ method = "pearson" which is also the default,  "kendall" and "spearman".
+```{r Co-rellation bw taxa abund and environmental variables}
+
+phy$Species=taxa_level(t(phy$flt), "Species") #fill in the NAs
+
+env.taxa.cor <- taxa.env.correlation(phy$Species, grouping_column = "Water.Mass",
+    pvalue.threshold = 0.05, padjust.method = "BH", adjustment = 1, num.taxa = 30, 
+    select.variables = c("Obs.Salin", "Obs.Temp", "Act.Depth"))
+p=plot_taxa_env(env.taxa.cor)
+p
+pdf(paste(output$envANOVA, "FSC_WM_envSpecies.pdf"))
+print(p)
+dev.off()
+
+#DONE
+```
+
+
+#Detect taxa most significantly changed between groups by DeSeq differential abundance analysis 
+http://userweb.eng.gla.ac.uk/umer.ijaz/projects/microbiomeSeq_Tutorial.html
+```{r DESeq2}
+#in case of error about dataframes: restart R, load only these 3 packages
+library(microbiomeSeq)
+library(phyloseq)
+library(ggplot2)
+
+
+phy$flt
+sample_data(phy$flt)
+
+genus= taxa_level(t(phy$flt), which_level="Genus")
+test=normalise_data((genus), norm.method = 'relative')  #correct 
+rowSums(otu_table(test)) #if correct (1s) proceed as:
+genus
+
+#The DeSeq2-based differential abundance
+#per season
+deseq_sig <- differential_abundance(genus, grouping_column = "Season", output_norm = "log-relative", pvalue.threshold = 0.05, lfc.threshold = 0, filename = F) 
+
+output$path="~/Documents/PhD/Ch2_FSCbaseline/Data/latest.analysis/zOTUs_new/R_v1/data_v2/output/"
+p4 <- plot_signif(deseq_sig$plotdata, top.taxa = 25); print(p4)
+pdf(paste0(output$path, "DeSeq", '/DeSeq_Season.pdf'), width=14, height=10 ); print(p4); dev.off()
+#pdf('R_output/DeSeq/DeSeq_WM.pdf', width=14, height=10 ); print(p4); dev.off()
+write.table(deseq_sig$plotdata, file=paste0(output$path, "DeSeq/DeSeq_Season.txt"), sep="\t")
+
+```
+
+###PERMANOVA & Pair-wise PERMANOWA (Adonis functions) of vegan
+http://cc.oulu.fi/~jarioksa/softhelp/vegan/html/adonis.html
+```{r PERMANOVA}
+##########################################  FSC ################################################
+######Step 1: Run global permanovas:
+#important to have all sample files in same order!!!!
+data$counts=data$counts[ , sort(colnames(data$counts))] #sorts headers/colnames
+data$meta <- data$meta[sort(row.names(data$meta)), ] #sorts rows. SORT needs row.names. Function order works too
+
+a=adonis(t(data$counts)~data$meta$Water.Core); a
+capture.output(a, file="R_output/permanova/gPERMANOVA_FSC:AWC~NOR.txt")
+
+a1=adonis(t(data$counts)~data$meta$Season); a1
+capture.output(a1, file="R_output/permanova/gPERMANOVA_FSC:Spring~Fall.txt")
+
+a1=adonis(t(data$counts)~data$meta$Water.Mass); a1
+capture.output(a1, file="R_output/permanova/gPERMANOVA_FSC:4WMs.txt")
+
+a1=adonis(t(data$counts)~data$meta$Year); a1
+capture.output(a1, file="R_output/permanova/gPERMANOVA_FSC:2014~2015.txt", append=T)
+
+##########################################  AWC ################################################
+data$AWC$counts=data$AWC$counts[ , sort(colnames(data$AWC$counts))] #sorts headers/colnames
+data$AWC$meta <- data$AWC$meta[sort(row.names(data$AWC$meta)), ] #sorts rows. SORT needs row.names. Function order works too
+
+b=adonis(t(data$AWC$counts)~ data$AWC$meta$Water.Mass); b
+capture.output(b, file="R_output/permanova/gPERMANOVA_ATL:NAW~MNAW.txt")
+
+b1=adonis(t(data$AWC$counts)~ data$AWC$meta$Season); b1
+capture.output(b1, file="R_output/permanova/gPERMANOVA_ATL:Spring~Fall.txt", append=T)
+
+b1=adonis(t(data$AWC$counts)~ data$AWC$meta$Year); b1
+capture.output(b1, file="R_output/permanova/gPERMANOVA_ATL:2014~2015.txt", append=T)
+
+##########################################  NOR ################################################
+data$NOR$counts=data$NOR$counts[ , sort(colnames(data$NOR$counts))] #sorts headers/colnames
+data$NOR$meta <- data$NOR$meta[sort(row.names(data$NOR$meta)), ] #sorts rows. SORT needs row.names. Function 
+
+c=adonis(t(data$NOR$counts)~ data$NOR$meta$Water.Mass); c
+ capture.output(c, file="R_output/permanova/gPERMANOVA_NOR:NSAIW~NSDW.txt", append=T)
+
+c1=adonis(t(data$NOR$counts)~ data$NOR$meta$Season); c1
+capture.output(c1, file="R_output/permanova/gPERMANOVA_NOR:Spring~Fall.txt")
+
+c1=adonis(t(data$NOR$counts)~ data$NOR$meta$Year); c1
+capture.output(c1, file="R_output/permanova/gPERMANOVA_NOR:2014~2015.txt", append=T)
+```
+
+
+CO-OCCURENCE NETWORK
+####co-occurance networks:
+
+DO NOT NORMALIZE IN ANY WAY OR FORM. FOR NETWORK ANALYSES, USE COUNTS DIRECTLY!!!
+THESE ANALYSES DEPEND ON PREASRON AND SPEARMANN CORRELATIONS, WHICH ASSUME NO RELATION BETWEEN THE COUNTS OF EACH OTU (NO NORMALIZATION)
+
+USE ONLY SPECIES LEVEL AGGLOMERATIONS, NOT HIGHER
+
+
+WGCNA network:https://horvath.genetics.ucla.edu/html/CoexpressionNetwork/Rpackages/WGCNA/Tutorials/
+1) prep the data
+https://horvath.genetics.ucla.edu/html/CoexpressionNetwork/Rpackages/WGCNA/Tutorials/Consensus-DataInput.pdf
+```{r Umer's cooccurance network script}
+#ACHTUNG: From the RStudio menu, click on "Session" and then "Set Working Directory" to "To Source File Location"
+#Script for co-occurence network analysis 
+library(igraph)
+library(phyloseq)
+library(WGCNA)
+
+
+
+#PARAMETERS ###########################
+which_level<-"Species" #Phylum Class Order Family Genus Otus
+meta_table<-data$meta
+source("cooccurence_functions.R")
+#source("cooccurence_functions-mod.Rmd")
+#/PARAMETERS ###########################
+
+abund_table<-data$flt
+abund_table<-t(abund_table)
+#Uncomment if you'd like to get rid of samples below a certain library size
+abund_table<-abund_table[rowSums(abund_table)>=1000,]
+
+
+OTU_taxonomy<-as.data.frame(data$taxdf)
+colnames(OTU_taxonomy)<-c("Kingdom","Phylum","Class","Order","Family","Genus","Species")
+
+#Ensure that all columns of OTU_taxonomy are character and not factors
+OTU_taxonomy[] <- lapply(OTU_taxonomy, function(x) as.character(x))
+OTU_taxonomy[is.na(OTU_taxonomy)]<-""
+
+
+#Remove singletons and adjust OTU_taxonomy
+abund_table<-abund_table[,colSums(abund_table)>1]
+OTU_taxonomy<-OTU_taxonomy[colnames(abund_table),]
+
+#get rid of contaminants with "Unassigned", "Chloroplast" and "Mitochondria" assignment", and "non classified" at Phylum level
+#abund_table<-abund_table[,!(OTU_taxonomy$Kingdom %in% c("Unassigned") | OTU_taxonomy$Phylum=="" | OTU_taxonomy$Order %in% c("Chloroplast") | OTU_taxonomy$Family %in% c("Mitochondria"))]
+
+
+#extract subset of abund_table for which samples also exists in meta_table
+abund_table<-abund_table[rownames(abund_table) %in% rownames(meta_table),]
+#when reducing the abund_table, there is a high likelihood that an OTU was only present in a sample that is removed, so we shrink
+#the abund_table to get rid of empty columns
+abund_table<-abund_table[,colSums(abund_table)>0]
+#make your meta_table smaller by only considering samples that appear in abund_table
+meta_table<-meta_table[rownames(abund_table),]
+#make OTU_taxonomy smaller by only considering OTUs that appear in abund_table
+OTU_taxonomy<-OTU_taxonomy[colnames(abund_table),]
+#At this point we have abund_table, meta_table, and OTU_taxonomy are ready and their dimensions should match
+#/DATA IMPORT############################################################
+
+#PARAMETERS CHANGE THE GROUPING COLUMN AS YOU DESIRE############################
+#In the hypothesis space, all you need is to select the rows in meta_table you are interested in
+#and then allocate a column to meta_table$Groups that you want to use.
+
+
+label="FSC"
+    #meta_table<-meta_table[meta_table$WaterOrigin %in% c("ATL","NOR"),]
+#First provide grouping column
+    #meta_table$Groups<-as.character(meta_table$WaterOrigin)
+#The colours in the the next instruction match the factors for meta_table$Groups
+    #meta_table$Groups<-factor(meta_table$Groups,c( "ATL",  "NOR" ))
+dim(meta_table)
+meta_table$Groups=rep("FSC", 32)  
+
+
+#/PARAMETERS CHANGE THE GROUPING COLUMN AS YOU DESIRE############################
+#Adjust abund_table to contain only those rows that got selected in the Hypothesis space
+abund_table<-abund_table[rownames(meta_table),]
+#After adjustment, get rid of OTUs that are all empty
+abund_table<-abund_table[,colSums(abund_table)>0]
+#Adjust OTU taxonomy
+OTU_taxonomy<-OTU_taxonomy[colnames(abund_table),]
+#################################################################################
+
+results<-pairwise_correlations(abund_table, meta_table, OTU_taxonomy, groups = "Groups", lvl = which_level, meth = "bicor")
+commstats <- subcommunity_detection(results)
+edges <- co_occur_pairs(results)
+
+plot_network(meta_table, OTU_taxonomy, edges, commstats, groups = "Groups", lvl= which_level, sig = 0.05, degree_divisor=5,width=180,height=180,vertex_font=14,vertex_label_distance=0.1,label=label)
+
+
+
+  network_common(edges,commstats, lvl = which_level,label=label)
+```
+
+
+
+#ANOVA on changes in HCD
+```{r}
+
+#for all FSC
+phy$flt_genus=taxa_level(phy$flt_freq, "genus")
+
+HCDs=c("Actinomycetales sp.", "Polaribacter", "Tenacibaculum", "Lentibacter", "Sulfitobacter", "Amylibacter", "Novosphingobium", "Sphingomonas", "Nitrosomonadales sp.", "Alteromonas", "Colwellia", "Marinobacter", "Pseudoalteromonas", "Psychrobacter", "Alcanivorax", "Halomonas", "Oleispira", "Cycloclasticus", "Vibrio")
+allTaxa=taxa_names(phy$flt_genus); allTaxa
+
+phy$flt_hcd=prune_taxa(HCDs, phy$flt_genus); phy$flt_hcd
+
+otu_table(phy$flt_hcd)
+
+a=adonis2(otu_table(phy$flt_hcd) ~ sample_data(phy$flt_hcd)$Water.Core); a
+capture.output(a, file="R_output/HCD_analysis/gPERMANOVA_HCD~WCs.txt")
+
+
+#For the AWC
+phy$flt_ATL_gn=taxa_level(phy$flt_ATL_freqs, "genus")
+phy$flt_ATL_hcd=prune_taxa(HCDs, phy$flt_ATL_gn); phy$flt_ATL_hcd
+
+b=adonis2(otu_table(phy$flt_ATL_hcd) ~ sample_data(phy$flt_ATL_hcd)$Season); b
+capture.output(b, file="R_output/HCD_analysis/gPERMANOVA_HCD~AWC:SEasons.txt", append=T)
+
+#For the NOR
+phy$flt_NOR_gn=taxa_level(phy$flt_NOR_freqs, "genus")
+phy$flt_NOR_hcd=prune_taxa(HCDs, phy$flt_NOR_gn); phy$flt_NOR_hcd
+
+c=adonis2(otu_table(phy$flt_NOR_hcd) ~ sample_data(phy$flt_NOR_hcd)$Season); c
+capture.output(c, file="R_output/HCD_analysis/gPERMANOVA_HCD~NOR:Seasons.txt", append=T)
+```
+
+
+
+
+--older versions UNIFRAC---
+#UniFrac based on GUniFrac fraction, Permanova, PLANKTONIC
+    The GUniFrac package can also be used to calculate unifrac distances and has additional features. Unifrac distances are traditionally calculated on either presence/absence data (1), or abundance data(2). The former (1) can be affected by PCR and sequencing errors leading to a high number of spurious and usually rare OTUs, and the latter(2) can give undue weight to the more abundant OTUs. GUniFrac's methods include use of a parameter alpha that controls the weight given to abundant OTUs and also a means of adjusting variances.
+    The function GUniFrac requires a rooted tree, but unlike phyloseq's ordination function will not try to root an unrooted one. We will apply mid-point rooting with the midpoint function from the phangorn package
+```{r calculating UniFrac using the GUniFrac package}
+#have the tree inserted before phylo-object OTU filtering
+
+#add tree of filtered sequences (if available)
+tree<- ape::read.tree(file="R_output/export_tables/sequences_flt_aln.tre")
+tree = phytools::midpoint.root(tree)
+phy$flt=merge_phyloseq(phy$flt, tree)
+
+
+#Prep unifrac distances
+transp=as.matrix(t(otu_table(phy$flt)))
+unifracs <- GUniFrac(transp, tree , alpha = c(0, 0.5, 1))$unifracs
+
+# We can extract a variety of distance matrices with different weightings.
+d1 <- unifracs[, , "d_1"]  # Weighted UniFrac
+d0 <- unifracs[, , "d_0"]  # GUniFrac with alpha 0
+d5 <- unifracs[, , "d_0.5"]  # GUniFrac with alpha 0.5
+ 
+# use vegan's cmdscale function to make a PCoA ordination from a distance matrix.
+pcoa <- cmdscale(d1, k = nrow(transp) - 1, eig = TRUE, add = TRUE); pcoa$eig
+p<-plot_ordination(phy$flt, pcoa, color="Water.Mass",shape="Season", title="Weighted Unifrac") + 
+  geom_point(size=5)+ theme_bw() + 
+  xlab(paste("Axis.1 [ ", round(100*pcoa$eig[1:1], digits=1), "%  ]")) +
+  ylab(paste("Axis.2 [ ", round(100*pcoa$eig[2:2], digits=1), "%  ]")); p
+pdf("R_output/UniFracs/FSC:AWC~NOR_wGUniFrac.pdf"); print(p); dev.off()
+
+ 
+pcoa <- cmdscale(d0, k = nrow(transp) - 1, eig = TRUE, add = TRUE); pcoa$eig
+p<-plot_ordination(phy$flt, pcoa, color="Water.Mass", title="Unweighted Unifrac", shape="Season") +
+  geom_point(size=5)+ theme_bw() + 
+  xlab(paste("Axis.1 [ ", round(100*pcoa$eig[1:1], digits=1), "%  ]")) +
+  ylab(paste("Axis.2 [ ", round(100*pcoa$eig[2:2], digits=1), "%  ]")); p
+pdf("R_output/UniFracs/FSC:AWC~NOR_unwGUniFrac.pdf"); print(p); dev.off()
+ 
+pcoa <- cmdscale(d5, k = nrow(transp) - 1, eig = TRUE, add = TRUE)
+p<-plot_ordination(phy$flt, pcoa, color="Water.Mass", title="Mid-Weighted Unifrac", shape="Season") + geom_point(size=5)+ theme_bw() + xlab(paste("Axis.1 [ ", round(100*pcoa$eig[1:1], digits=1), "%  ]")) +
+  ylab(paste("Axis.2 [ ", round(100*pcoa$eig[2:2], digits=1), "%  ]")); p
+pdf("R_output/UniFracs/FSC:AWC~NOR_midwGUniFrac.pdf"); print(p); dev.off()
+
+#Permanova - Distance based multivariate analysis of variance
+adonis(as.dist(d1) ~ as.matrix(sample_data(phy$flt)[,"Water.Core"]))
+ 
+#Each distance measure is most powerful in detecting only a certain scenario. When multiple distance
+#matrices are available, separate tests using each distance matrix will lead to loss of power due to
+#multiple testing correction. Combing the distance matrices in a single test will improve power.
+#PermanovaG combines multiple distance matrices by taking the maximum of pseudo-F statistics
+#for each distance matrix. Significance is assessed by permutation.
+ova=PermanovaG(unifracs[, , c("d_1", "d_0", "d_0.5")]  ~ as.matrix(sample_data(phy$flt)[,"Water.Core"])); ova
+capture.output(ova, file="R_output/UniFracs/FSC_gPERMANOVA~Water.Core.txt")
+
+ova=PermanovaG(unifracs[, , c("d_1", "d_0", "d_0.5")]  ~ as.matrix(sample_data(phy$flt)[,"Season"])); ova
+capture.output(ova, file="R_output/UniFracs/FSC_gPERMANOVA~Seasons.txt")
+
+ova=PermanovaG(unifracs[, , c("d_1", "d_0", "d_0.5")]  ~ as.matrix(sample_data(phy$flt)[,"Year"])); ova
+capture.output(ova, file="R_output/UniFracs/FSC_gPERMANOVA~Year.txt")
+
+```
+
+#AWC/ATL
+```{r calculating UniFrac using the GUniFrac package}
+#have the tree inserted before phylo-object OTU filtering
+phy$flt_ATL=subset_samples(phy$flt, Water.Core=="AWC")
+
+#Prep unifrac distances
+transp=as.matrix(t(otu_table(phy$flt_ATL)))
+unifracs <- GUniFrac(transp, tree , alpha = c(0, 0.5, 1))$unifracs
+
+# We can extract a variety of distance matrices with different weightings.
+d1 <- unifracs[, , "d_1"]  # Weighted UniFrac
+d0 <- unifracs[, , "d_0"]  # GUniFrac with alpha 0
+d5 <- unifracs[, , "d_0.5"]  # GUniFrac with alpha 0.5
+ 
+# use vegan's cmdscale function to make a PCoA ordination from a distance matrix.
+pcoa <- cmdscale(d1, k = nrow(transp) - 1, eig = TRUE, add = TRUE); pcoa$eig
+p<-plot_ordination(phy$flt, pcoa, color="Water.Mass",shape="Season", title="Weighted Unifrac") + 
+  geom_point(size=5)+ theme_bw() + 
+  xlab(paste("Axis.1 [ ", round(100*pcoa$eig[1:1], digits=1), "%  ]")) +
+  ylab(paste("Axis.2 [ ", round(100*pcoa$eig[2:2], digits=1), "%  ]")); p
+pdf("R_output/UniFracs/AWC:NAW~MNAW_wGUniFrac.pdf"); print(p); dev.off()
+ 
+
+pcoa <- cmdscale(d0, k = nrow(transp) - 1, eig = TRUE, add = TRUE); pcoa$eig
+p<-plot_ordination(phy$flt, pcoa, color="Water.Mass", shape="Season", title="Unweighted Unifrac") +
+  geom_point(size=5)+ theme_bw() + 
+  xlab(paste("Axis.1 [ ", round(100*pcoa$eig[1:1], digits=1), "%  ]")) +
+  ylab(paste("Axis.2 [ ", round(100*pcoa$eig[2:2], digits=1), "%  ]")); p
+pdf("R_output/UniFracs/AWC:NAW~MNAW_unwGUniFrac.pdf"); print(p); dev.off()
+ 
+pcoa <- cmdscale(d5, k = nrow(transp) - 1, eig = TRUE, add = TRUE)
+p<-plot_ordination(phy$flt, pcoa, color="Water.Mass", shape="Season", title="Mid-Weighted Unifrac") + geom_point(size=5)+ theme_bw() + xlab(paste("Axis.1 [ ", round(100*pcoa$eig[1:1], digits=1), "%  ]")) +
+  ylab(paste("Axis.2 [ ", round(100*pcoa$eig[2:2], digits=1), "%  ]"));p
+pdf("R_output/UniFracs/AWC:NAW~MNAW_midwGUniFrac.pdf"); print(p); dev.off()
+
+#Permanova - Distance based multivariate analysis of variance
+#adonis(as.dist(d1) ~ as.matrix(sample_data(phy$flt_ATL)[,"Water.Mass"]))
+#adonis(as.dist(d1) ~ as.matrix(sample_data(phy$flt_ATL)[,"Season"]))
+
+ 
+#Each distance measure is most powerful in detecting only a certain scenario. When multiple distance
+#matrices are available, separate tests using each distance matrix will lead to loss of power due to
+#multiple testing correction. Combing the distance matrices in a single test will improve power.
+#PermanovaG combines multiple distance matrices by taking the maximum of pseudo-F statistics
+#for each distance matrix. Significance is assessed by permutation.
+ova=PermanovaG(unifracs[, , c("d_1", "d_0", "d_0.5")]  ~ as.matrix(sample_data(phy$flt_ATL)[,"Water.Mass"])); ova
+capture.output(ova, file="R_output/UniFracs/AWC_gPERMANOVA~Water.Mass.txt")
+
+ova=PermanovaG(unifracs[, , c("d_1", "d_0", "d_0.5")]  ~ as.matrix(sample_data(phy$flt_ATL)[,"Season"])); ova
+capture.output(ova, file="R_output/UniFracs/AWC_gPERMANOVA~Season.txt")
+
+ova=PermanovaG(unifracs[, , c("d_1", "d_0", "d_0.5")]  ~ as.matrix(sample_data(phy$flt_ATL)[,"Year"])); ova
+capture.output(ova, file="R_output/UniFracs/AWC_gPERMANOVA~Year.txt")
+
+```
+
+#NOR
+```{r calculating UniFrac using the GUniFrac package}
+#have the tree inserted before phylo-object OTU filtering
+phy$flt_NOR=subset_samples(phy$flt, Water.Core=="NOR")
+
+
+#Prep unifrac distances
+transp=as.matrix(t(otu_table(phy$flt_NOR)))
+unifracs <- GUniFrac(transp, tree , alpha = c(0, 0.5, 1))$unifracs
+
+# We can extract a variety of distance matrices with different weightings.
+d1 <- unifracs[, , "d_1"]  # GUniFrac with alpha 1 (weighted)
+d0 <- unifracs[, , "d_0"]  # GUniFrac with alpha 0 (unweighted)
+d5 <- unifracs[, , "d_0.5"]  # GUniFrac with alpha 0.5 (mid-weigthed)
+ 
+# use vegan's cmdscale function to make a PCoA ordination from a distance matrix.
+pcoa <- cmdscale(d1, k = nrow(transp) - 1, eig = TRUE, add = TRUE); pcoa$eig
+p<-plot_ordination(phy$flt, pcoa, color="Water.Mass",shape="Season", title="Weighted Unifrac") + 
+  geom_point(size=5)+ theme_bw() + 
+  xlab(paste("Axis.1 [ ", round(100*pcoa$eig[1:1], digits=1), "%  ]")) +
+  ylab(paste("Axis.2 [ ", round(100*pcoa$eig[2:2], digits=1), "%  ]")); p
+pdf("R_output/UniFracs/NOR:NSAIW~NSDW_wGUniFrac.pdf"); print(p); dev.off()
+ 
+
+pcoa <- cmdscale(d0, k = nrow(transp) - 1, eig = TRUE, add = TRUE); pcoa$eig
+p<-plot_ordination(phy$flt, pcoa, color="Water.Mass", shape="Season", title="Unweighted Unifrac") +
+  geom_point(size=5)+ theme_bw() + 
+  xlab(paste("Axis.1 [ ", round(100*pcoa$eig[1:1], digits=1), "%  ]")) +
+  ylab(paste("Axis.2 [ ", round(100*pcoa$eig[2:2], digits=1), "%  ]")); p
+pdf("R_output/UniFracs/NOR:NSAIW~NSDW_unwGUniFrac.pdf"); print(p); dev.off()
+ 
+pcoa <- cmdscale(d5, k = nrow(transp) - 1, eig = TRUE, add = TRUE)
+p<-plot_ordination(phy$flt, pcoa, color="Water.Mass", shape="Season", title="Mid-Weighted Unifrac") + geom_point(size=5)+ theme_bw() + xlab(paste("Axis.1 [ ", round(100*pcoa$eig[1:1], digits=1), "%  ]")) +
+  ylab(paste("Axis.2 [ ", round(100*pcoa$eig[2:2], digits=1), "%  ]")); p
+pdf("R_output/UniFracs/NOR:NSAIW~NSDW_midwGUniFrac.pdf"); print(p); dev.off()
+
+#Permanova - Distance based multivariate analysis of variance
+#adonis(as.dist(d1) ~ as.matrix(sample_data(phy$flt_NOR)[,"Water.Mass"]))
+#adonis(as.dist(d1) ~ as.matrix(sample_data(phy$flt_NOR)[,"Season"]))
+
+ 
+#Each distance measure is most powerful in detecting only a certain scenario. When multiple distance
+#matrices are available, separate tests using each distance matrix will lead to loss of power due to
+#multiple testing correction. Combing the distance matrices in a single test will improve power.
+#PermanovaG combines multiple distance matrices by taking the maximum of pseudo-F statistics
+#for each distance matrix. Significance is assessed by permutation.
+ova=PermanovaG(unifracs[, , c("d_1", "d_0", "d_0.5")]  ~ as.matrix(sample_data(phy$flt_NOR)[,"Water.Mass"])); ova
+capture.output(ova, file="R_output/UniFracs/NOR_gPERMANOVA~Water.Mass.txt", append=T)
+
+ova=PermanovaG(unifracs[, , c("d_1", "d_0", "d_0.5")]  ~ as.matrix(sample_data(phy$flt_NOR)[,"Season"])); ova
+capture.output(ova, file="R_output/UniFracs/NOR_gPERMANOVA~Season.txt")
+
+ova=PermanovaG(unifracs[, , c("d_1", "d_0", "d_0.5")]  ~ as.matrix(sample_data(phy$flt_NOR)[,"Year"])); ova
+capture.output(ova, file="R_output/UniFracs/NOR_gPERMANOVA~Year.txt")
+
+```
