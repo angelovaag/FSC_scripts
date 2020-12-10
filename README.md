@@ -21,15 +21,16 @@ All files starting with **DB** are the SINTAX-formated database files used for a
 
 **zASV_OTUtab-nonchim.txt** = the ASV counts table produced by VSEARCH after chimera removal \
 **zASV_TAXtab-nonchim.txt** = the TAXONOMY asignments for each ASV (Its been cleaned with: cut -f1,3 -d "\t" | sed 's/;*\t/\t/g' ) \
-**zASV_SEQfa-nonchim.txt** = the fasta file of the nonchimeric ASV sequences \
+**zASV_SEQfa-nonchim.txt** = the fasta file of the nonchimeric ASV sequences 
 
 **SampleMapping.xlsx** file contains the "everything" metadata file
 
 **metadataR.txt** is a shorter version of the metadata file, formated for R
 
-**zASV_Ranalysis_v314.7.Rmd** is the R script used to genarate the analysis + some explanations .. and ranting  \
+**zASV_Ranalysis_v314.7.Rmd** is the R script used to genarate the analysis + some explanations .. and ranting  
+
 
 DESeq / differential abundance analysis results tables \
 **DeSeq-Fall_vs_Spring.csv** - Seasonal \
 **DeSeq-ATL_vs_NOR.csv** - Water Origin \
-**DeSeq-MNAW_vs_NAW_vs_NSAIW_vs_NSDW.csv** - Water mass \
+**DeSeq-MNAW_vs_NAW_vs_NSAIW_vs_NSDW.csv** - Water mass 
