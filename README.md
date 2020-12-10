@@ -28,3 +28,7 @@ All files starting with **DB** are the SINTAX-formated database files used for a
 **metadataR.txt** is a shorter version of the metadata file, formated for R
 
 **zASV_Ranalysis_v314.7.Rmd** is the R script used to genarate the analysis + some explanations .. and ranting 
+
+
+Seasonal, WaterOrigin-based and WaterMass-based differential abundance analysis results (DeSeq)
+**DeSeq-Fall_vs_Spring.csv, DeSeq-ATL_vs_NOR, DeSeq-MNAW_vs_NAW_vs_NSAIW_vs_NSDW **
