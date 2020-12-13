@@ -31,6 +31,4 @@ All files starting with **DB** are the SINTAX-formated database files used for a
 
 
 DESeq / differential abundance analysis results tables \
-**DeSeq-Fall_vs_Spring.csv** - Seasonal \
-**DeSeq-ATL_vs_NOR.csv** - Water Origin \
-**DeSeq-MNAW_vs_NAW_vs_NSAIW_vs_NSDW.csv** - Water mass 
+**DeSeq-WO-Season.csv** - Seasonal variaion of taxa within the different Water Origins \
